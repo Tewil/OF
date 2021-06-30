@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using UnityEngine.XR.ARFoundation;
+
 public class Navigation : MonoBehaviour
 {
     public GameObject home_panel;
@@ -29,6 +33,8 @@ public class Navigation : MonoBehaviour
 		home_panel.SetActive(false);
 		craft_panel.SetActive(false);
 		plant_panel.SetActive(true);
+		LoaderUtility.Initialize();
+		SceneManager.LoadSceneAsync("PlantScene", LoadSceneMode.Single);
 		
 	}
 }
