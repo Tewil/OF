@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Broccoli.Controller.BroccoTreeController
     - Navigation
     - ObjectSpawner
     - PlacementIndicator
@@ -63,11 +62,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 102
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -147,20 +150,12 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4956}
     - Class: 114
-      Script: {instanceID: 5820}
-    - Class: 114
       Script: {instanceID: 5882}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 205
-      Script: {instanceID: 0}
-    - Class: 226
-      Script: {instanceID: 0}
-    - Class: 227
       Script: {instanceID: 0}
   scriptHashData:
   - hash:

@@ -28,7 +28,7 @@ public class Navigation : MonoBehaviour
 		
 	}
 	
-	public void plantPanel() 
+	public void plantPage() 
 	{
 		home_panel.SetActive(false);
 		craft_panel.SetActive(false);

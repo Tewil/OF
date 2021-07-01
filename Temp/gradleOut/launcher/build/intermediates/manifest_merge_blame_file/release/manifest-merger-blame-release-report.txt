@@ -145,7 +145,7 @@
 81-->[:unityLibrary] C:\Users\Thors\dev\unity\projects\OF\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:9-69:68
 82            android:name="unity.build-id"
 82-->[:unityLibrary] C:\Users\Thors\dev\unity\projects\OF\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-42
-83            android:value="7cd5771c-c93c-419e-9487-46ab95962173" />
+83            android:value="85e3289a-057d-4f55-ad0e-5cef32087a3e" />
 83-->[:unityLibrary] C:\Users\Thors\dev\unity\projects\OF\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-65
 84        <meta-data
 84-->[:unityLibrary] C:\Users\Thors\dev\unity\projects\OF\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:9-72:36
