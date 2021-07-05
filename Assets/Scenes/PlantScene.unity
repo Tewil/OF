@@ -174,7 +174,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d6a05714b2fe7934eac0499b2e2eb4aa, type: 2}
+  - {fileID: 2100000, guid: c3f44d893a394924980f2c6c7c243a99, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -503,7 +503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2716f3f9b9708fa49aaf6b04d865bc71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 4789027232565592739, guid: a3aedda576cd0f04fb6a8c04893dddd6, type: 3}
+  objectToSpawn: {fileID: 4753480197167695177, guid: cf940e63974710e459d2a10333e41d25, type: 3}
 --- !u!4 &1743825826
 Transform:
   m_ObjectHideFlags: 0
