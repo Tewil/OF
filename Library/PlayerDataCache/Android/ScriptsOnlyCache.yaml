@@ -15,11 +15,14 @@ ScriptsOnlyBuild:
     - Broccoli.Pipe.WindEffectElement
     - Navigation
     - ObjectSpawner
+    - PNGGenerate
+    - PNGListCreator
     - PlacementIndicator
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -86,47 +89,51 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 648}
+      Script: {instanceID: 664}
     - Class: 114
-      Script: {instanceID: 1918}
+      Script: {instanceID: 2214}
     - Class: 114
-      Script: {instanceID: 1964}
+      Script: {instanceID: 2260}
     - Class: 114
-      Script: {instanceID: 1970}
+      Script: {instanceID: 2266}
     - Class: 114
-      Script: {instanceID: 2826}
+      Script: {instanceID: 3122}
     - Class: 114
-      Script: {instanceID: 2996}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 3228}
+      Script: {instanceID: 3524}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3572}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3634}
     - Class: 114
-      Script: {instanceID: 3368}
+      Script: {instanceID: 3664}
     - Class: 114
-      Script: {instanceID: 3504}
+      Script: {instanceID: 3800}
     - Class: 114
-      Script: {instanceID: 3528}
+      Script: {instanceID: 3824}
     - Class: 114
-      Script: {instanceID: 3688}
+      Script: {instanceID: 3984}
     - Class: 114
-      Script: {instanceID: 3828}
+      Script: {instanceID: 4124}
     - Class: 114
-      Script: {instanceID: 4120}
+      Script: {instanceID: 4416}
     - Class: 114
-      Script: {instanceID: 4268}
+      Script: {instanceID: 4564}
     - Class: 114
-      Script: {instanceID: 5542}
+      Script: {instanceID: 5838}
     - Class: 114
-      Script: {instanceID: 6306}
+      Script: {instanceID: 6602}
     - Class: 114
-      Script: {instanceID: 6822}
+      Script: {instanceID: 7118}
     - Class: 114
-      Script: {instanceID: 6880}
+      Script: {instanceID: 7176}
     - Class: 114
-      Script: {instanceID: 6956}
+      Script: {instanceID: 7252}
+    - Class: 114
+      Script: {instanceID: 25850}
+    - Class: 114
+      Script: {instanceID: 27218}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -167,27 +174,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2100}
+      Script: {instanceID: 2396}
     - Class: 114
-      Script: {instanceID: 2228}
+      Script: {instanceID: 2524}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 3690}
     - Class: 114
-      Script: {instanceID: 4242}
+      Script: {instanceID: 4538}
     - Class: 114
-      Script: {instanceID: 4540}
+      Script: {instanceID: 4836}
     - Class: 114
-      Script: {instanceID: 4552}
+      Script: {instanceID: 4848}
     - Class: 114
-      Script: {instanceID: 5142}
+      Script: {instanceID: 5438}
     - Class: 114
-      Script: {instanceID: 5222}
+      Script: {instanceID: 5518}
     - Class: 114
-      Script: {instanceID: 5278}
+      Script: {instanceID: 5574}
     - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5952}
     - Class: 114
-      Script: {instanceID: 6628}
+      Script: {instanceID: 6924}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1185,6 +1192,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Broccoli.Examples
     className: RuntimeSceneController
+  - hash:
+      serializedVersion: 2
+      Hash: efd026550e7690f238370b13dd9ea51e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PNGListCreator
+  - hash:
+      serializedVersion: 2
+      Hash: b1e7d8725f99530ea0de36b666299560
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PNGGenerate
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainScene.unity
