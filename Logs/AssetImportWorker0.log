@@ -15,11 +15,11 @@ C:/Users/Thors/dev/unity/projects/OF
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54561
+49712
 Successfully changed project path to: C:/Users/Thors/dev/unity/projects/OF
 C:/Users/Thors/dev/unity/projects/OF
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 73.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 524.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,93 +35,16 @@ Initialize mono
 Mono path[0] = 'C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004675 seconds.
+Registered in 0.238058 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.373 seconds
+- Completed reload, in 12.045 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017228 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.737 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2430 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.9 MB.
-System memory in use after: 108.9 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2869.
-Total: 3.703000 ms (FindLiveObjects: 0.859300 ms CreateObjectMapping: 0.240500 ms MarkObjects: 2.459300 ms  DeleteObjects: 0.141500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Materials/PlacementIndicator.mat
-  artifactKey: Guid(c3f44d893a394924980f2c6c7c243a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PlacementIndicator.mat using Guid(c3f44d893a394924980f2c6c7c243a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56525b0c750789dac9d170e4f91c1ab5') in 0.241956 seconds
-  Import took 0.248756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/Materials/PlacementMarkerBase.mat
-  artifactKey: Guid(5b58a6e5fc40e2448ae2cd466d6833ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PlacementMarkerBase.mat using Guid(5b58a6e5fc40e2448ae2cd466d6833ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb2ad48775941f2df17143b98806fab') in 0.050770 seconds
-  Import took 0.060314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006420 seconds.
-  path: Assets/Materials/PlacementMarkerBase.mat
-  artifactKey: Guid(5b58a6e5fc40e2448ae2cd466d6833ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PlacementMarkerBase.mat using Guid(5b58a6e5fc40e2448ae2cd466d6833ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb2ad48775941f2df17143b98806fab') in 0.033819 seconds
-  Import took 0.044184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.717177 seconds.
-  path: Assets/Materials/PlacementMarkerBase.png
-  artifactKey: Guid(b69f21389d706734fb5ddbd7e370aed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PlacementMarkerBase.png using Guid(b69f21389d706734fb5ddbd7e370aed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75d9cd18c10659bde1671ed9b6938d9') in 0.090449 seconds
-  Import took 0.098039 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 23.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.2 MB.
-System memory in use after: 64.3 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2911.
-Total: 7.933500 ms (FindLiveObjects: 1.911800 ms CreateObjectMapping: 0.358200 ms MarkObjects: 5.531300 ms  DeleteObjects: 0.128800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.102119 seconds.
-  path: Assets/Materials/PlacementIndicator.mat
-  artifactKey: Guid(c3f44d893a394924980f2c6c7c243a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PlacementIndicator.mat using Guid(c3f44d893a394924980f2c6c7c243a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1f9314a4ff4caef588ee10fce8e096') in 0.037263 seconds
-  Import took 0.047339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.611199 seconds.
-  path: Assets/Materials/PlacementIndicator.mat
-  artifactKey: Guid(c3f44d893a394924980f2c6c7c243a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PlacementIndicator.mat using Guid(c3f44d893a394924980f2c6c7c243a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1f9314a4ff4caef588ee10fce8e096') in 0.029823 seconds
-  Import took 0.038874 seconds .
-
+Registered in 0.764126 seconds.

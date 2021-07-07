@@ -1,0 +1,996 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'en' Physical Memory: 8108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Users\Thors\Desktop\New folder\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Thors/dev/unity/projects/OF
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49712
+Successfully changed project path to: C:/Users/Thors/dev/unity/projects/OF
+C:/Users/Thors/dev/unity/projects/OF
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 94.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Thors/dev/unity/projects/OF/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   
+    VRAM:     4054 MB
+    Driver:   26.20.100.7925
+Initialize mono
+Mono path[0] = 'C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.100251 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 67.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.472 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007464 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 117.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.015 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.6 MB.
+System memory in use after: 117.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3055.
+Total: 3.758900 ms (FindLiveObjects: 0.465000 ms CreateObjectMapping: 0.280500 ms MarkObjects: 2.854800 ms  DeleteObjects: 0.156800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Materials/Plants
+  artifactKey: Guid(2a42037fae8a217488e6b4d0bcdf9775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plants using Guid(2a42037fae8a217488e6b4d0bcdf9775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7f1302eaa2c59c8c89d9c61d66d34e') in 0.016846 seconds
+  Import took 0.023057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Materials/BroccoTree_0.prefab
+  artifactKey: Guid(cf940e63974710e459d2a10333e41d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BroccoTree_0.prefab using Guid(cf940e63974710e459d2a10333e41d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483689315614412343952009ff1e83c0') in 0.403413 seconds
+  Import took 0.411302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.925175 seconds.
+  path: Assets/Materials/Plants/BroccoTree_0.prefab
+  artifactKey: Guid(0ce4f68d94122504eab1bf9c76cdc11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plants/BroccoTree_0.prefab using Guid(0ce4f68d94122504eab1bf9c76cdc11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68ec1dfdc28a42b4f37dcafb224b466') in 0.076974 seconds
+  Import took 0.088219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.128639 seconds.
+  path: Assets/Materials/Plants/BroccoTree_0 (1).prefab
+  artifactKey: Guid(be06b26986674d942b5ebed3c8449e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plants/BroccoTree_0 (1).prefab using Guid(be06b26986674d942b5ebed3c8449e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18b118b43d6b45e7b7ad529dbac0491') in 0.128201 seconds
+  Import took 0.211133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.264651 seconds.
+  path: Assets/Materials/Plants/Hyophorbe_lagenicaulis_.obj
+  artifactKey: Guid(29e1f6cd5fc29da47bcaa9673c35827c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plants/Hyophorbe_lagenicaulis_.obj using Guid(29e1f6cd5fc29da47bcaa9673c35827c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7b0e7c032b60bfec09f951afd1ba8c') in 0.119253 seconds
+  Import took 0.139124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004454 seconds.
+  path: Assets/Materials/Plants/Hyophorbe_lagenicaulis_.obj
+  artifactKey: Guid(29e1f6cd5fc29da47bcaa9673c35827c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plants/Hyophorbe_lagenicaulis_.obj using Guid(29e1f6cd5fc29da47bcaa9673c35827c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7b0e7c032b60bfec09f951afd1ba8c') in 0.080191 seconds
+  Import took 0.090176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.352539 seconds.
+  path: Assets/BroccoTree_0_Textures/atlas.png
+  artifactKey: Guid(12d2fa5ae29b4bc4b9bfa66de657bdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BroccoTree_0_Textures/atlas.png using Guid(12d2fa5ae29b4bc4b9bfa66de657bdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79345c2a1f4d475b076c365e01a1758d') in 0.113345 seconds
+  Import took 0.121123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/BroccoTree_0_Textures/bark.png
+  artifactKey: Guid(69765042eedad004facbb7d2f52f06e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BroccoTree_0_Textures/bark.png using Guid(69765042eedad004facbb7d2f52f06e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e5a8ecd143cc0f890cda5e7ece7308') in 0.044027 seconds
+  Import took 0.052439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/BroccoTree_0_Textures/billboard_normal.png
+  artifactKey: Guid(7225bb3e814c05141a3ad0243c168887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BroccoTree_0_Textures/billboard_normal.png using Guid(7225bb3e814c05141a3ad0243c168887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30eb67998041fa626165330a43c52fa4') in 0.054856 seconds
+  Import took 0.060351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/BroccoTree_0_Textures/shadow.png
+  artifactKey: Guid(fb50b7a14ff966e4f91057f394515447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BroccoTree_0_Textures/shadow.png using Guid(fb50b7a14ff966e4f91057f394515447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea1cf46ab4794b51a05ef91e10d9ace') in 0.037201 seconds
+  Import took 0.043261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/BroccoTree_0_Textures/billboard.png
+  artifactKey: Guid(51786ee7827954b4789c1c8044aa87c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BroccoTree_0_Textures/billboard.png using Guid(51786ee7827954b4789c1c8044aa87c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c899ea710a100fa79da94a309f109004') in 0.066585 seconds
+  Import took 0.073322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/BroccoTree_0_Textures/normal_atlas.png
+  artifactKey: Guid(48eb8d8caba89ec4ebc54306ab3771e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BroccoTree_0_Textures/normal_atlas.png using Guid(48eb8d8caba89ec4ebc54306ab3771e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6f9a9a401ed912475e04a007167f36') in 0.050979 seconds
+  Import took 0.062073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/BroccoTree_0_Textures/translucency_gloss.png
+  artifactKey: Guid(4f6fc21a18ad48a49ad0bdb121ed564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BroccoTree_0_Textures/translucency_gloss.png using Guid(4f6fc21a18ad48a49ad0bdb121ed564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700cc27a0381636bcdef5c01f046ba1b') in 0.044594 seconds
+  Import took 0.051368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/BroccoTree_0_Textures/translucency_gloss.png
+  artifactKey: Guid(4f6fc21a18ad48a49ad0bdb121ed564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BroccoTree_0_Textures/translucency_gloss.png using Guid(4f6fc21a18ad48a49ad0bdb121ed564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700cc27a0381636bcdef5c01f046ba1b') in 0.022476 seconds
+  Import took 0.039144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1395.779375 seconds.
+  path: Assets/Materials/Materials
+  artifactKey: Guid(14369eecf5baf914594ab1171d17b597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials using Guid(14369eecf5baf914594ab1171d17b597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03b8755de2e85bca3741e74038bcffd') in 0.021183 seconds
+  Import took 0.039647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2335.493416 seconds.
+  path: Assets/Materials/Materials/Flowers
+  artifactKey: Guid(8f19f0c6560492d429603242f2493df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers using Guid(8f19f0c6560492d429603242f2493df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd03c474bfcec7e1d73030ae72cd522') in 0.012739 seconds
+  Import took 0.024564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.169498 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_0.prefab
+  artifactKey: Guid(f56aa061df373a3418967ca32c427b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_0.prefab using Guid(f56aa061df373a3418967ca32c427b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfc8938657b260b7c1349bb1230db2a') in 0.134823 seconds
+  Import took 0.142813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_4.prefab
+  artifactKey: Guid(3d801626a8607ed4fbcd44088dcef2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_4.prefab using Guid(3d801626a8607ed4fbcd44088dcef2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dff399334a7d9063319d2c4d50177da') in 0.143497 seconds
+  Import took 0.150216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_39.prefab
+  artifactKey: Guid(940af12814165434e8923d5ab0dad3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_39.prefab using Guid(940af12814165434e8923d5ab0dad3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37432ef86ccdf222a554d241664fe15') in 0.117028 seconds
+  Import took 0.122671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_58.prefab
+  artifactKey: Guid(ca9d85268415fc245aad1de5a94dde53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_58.prefab using Guid(ca9d85268415fc245aad1de5a94dde53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc08d639557f392e0fd42e2be0e4ff75') in 0.745168 seconds
+  Import took 0.750498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_21.prefab
+  artifactKey: Guid(e0047b1480ad48c4a81b91823dff722e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_21.prefab using Guid(e0047b1480ad48c4a81b91823dff722e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3782ff8d801203a093d204760e8fab2c') in 0.114537 seconds
+  Import took 0.119918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_54.prefab
+  artifactKey: Guid(e0c2d2ab9f4331a43b51e113a244279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_54.prefab using Guid(e0c2d2ab9f4331a43b51e113a244279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe50c69380376044a33c4b3f1d554fa3') in 0.120288 seconds
+  Import took 0.126175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_18.prefab
+  artifactKey: Guid(6b612b111ec40aa4c8953bc74c5fce28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_18.prefab using Guid(6b612b111ec40aa4c8953bc74c5fce28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd748c25b50050828d6ec236fdcd3780c') in 0.111317 seconds
+  Import took 0.117090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_8.prefab
+  artifactKey: Guid(f41d8987849e9e344bcf3f8b5960afd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_8.prefab using Guid(f41d8987849e9e344bcf3f8b5960afd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc2537119fe078bf2a3589e66ffc94f') in 0.110215 seconds
+  Import took 0.114931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_43.prefab
+  artifactKey: Guid(796c8231c2d3546489e7dcb3b81b4cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_43.prefab using Guid(796c8231c2d3546489e7dcb3b81b4cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bba3e1656e485a25ff0a295534eea60') in 0.120294 seconds
+  Import took 0.125559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_46.prefab
+  artifactKey: Guid(dac4f1a22aef98547a7a489a5b5f3853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_46.prefab using Guid(dac4f1a22aef98547a7a489a5b5f3853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8fe99557fd73f16403beb4d1ca1a11') in 0.126672 seconds
+  Import took 0.131355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_34.prefab
+  artifactKey: Guid(4c612933cd6df014b82544ab5234b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_34.prefab using Guid(4c612933cd6df014b82544ab5234b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9d846261c29e5e020519b25b83c1a8') in 0.114944 seconds
+  Import took 0.119629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_38.prefab
+  artifactKey: Guid(3b28e1d252959814fba8a44d37d7281e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_38.prefab using Guid(3b28e1d252959814fba8a44d37d7281e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9695d462ff4473f2bb522222cda9f48') in 0.114100 seconds
+  Import took 0.119245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_36.prefab
+  artifactKey: Guid(30a223ad483aed14d9b4a9aa69c294f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_36.prefab using Guid(30a223ad483aed14d9b4a9aa69c294f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148fb5f6a54f96057d2e3ad18c1ae7e9') in 0.114913 seconds
+  Import took 0.119767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_48.prefab
+  artifactKey: Guid(56432a5c2f63f3f4690189c9faa1b3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_48.prefab using Guid(56432a5c2f63f3f4690189c9faa1b3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b634358a9e68ab2a42162ce493abda8d') in 0.121812 seconds
+  Import took 0.126725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_51.prefab
+  artifactKey: Guid(28cd8e33781c3244babb37d0dfedeb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_51.prefab using Guid(28cd8e33781c3244babb37d0dfedeb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1299375d277f944c47344825459c48b') in 0.114816 seconds
+  Import took 0.119661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_37.prefab
+  artifactKey: Guid(c522d39bfb202bb4d9db1e4a8155260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_37.prefab using Guid(c522d39bfb202bb4d9db1e4a8155260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bdc8dcc0fd51621872edc2771ceee8') in 0.112528 seconds
+  Import took 0.117430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_61.prefab
+  artifactKey: Guid(189d3f78922562546ac4d05d42c9a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_61.prefab using Guid(189d3f78922562546ac4d05d42c9a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf503ddf996f4b4b1aff320aa13267e8') in 0.120585 seconds
+  Import took 0.126293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_12.prefab
+  artifactKey: Guid(a7389d8abbd42614085ddca2be678850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_12.prefab using Guid(a7389d8abbd42614085ddca2be678850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45c6097a88df47ed32e404cf1feefd4') in 0.121633 seconds
+  Import took 0.126507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_57.prefab
+  artifactKey: Guid(f64f30c2dbc63a74bbbfab071d997923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_57.prefab using Guid(f64f30c2dbc63a74bbbfab071d997923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f262ea825c4aeff1c969c0a82ab3a493') in 0.120529 seconds
+  Import took 0.126076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_63.prefab
+  artifactKey: Guid(e96a99156dbbf2546beaad805fd123bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_63.prefab using Guid(e96a99156dbbf2546beaad805fd123bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ff8be1aad50c7ffa40d242be94ff8a') in 0.113391 seconds
+  Import took 0.118280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_23.prefab
+  artifactKey: Guid(818f00e6aacfc1148be1e840d7d80b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_23.prefab using Guid(818f00e6aacfc1148be1e840d7d80b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d4a4c09a9552af4f4424161d29c925') in 0.117618 seconds
+  Import took 0.122431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_33.prefab
+  artifactKey: Guid(f09e2716e0cfd244593b58933d7ff2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_33.prefab using Guid(f09e2716e0cfd244593b58933d7ff2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780025c8077b591c502bbdaae6be81bb') in 0.113857 seconds
+  Import took 0.118704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_56.prefab
+  artifactKey: Guid(186cf2ea0bbcd964c941b0b84e7c7fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_56.prefab using Guid(186cf2ea0bbcd964c941b0b84e7c7fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b708292849ed07770daaff5b1b7708d9') in 0.116792 seconds
+  Import took 0.121728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_47.prefab
+  artifactKey: Guid(c42f77823093b16449acb78ba919d265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_47.prefab using Guid(c42f77823093b16449acb78ba919d265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33061726c834768e75c7bcdf2358c63') in 0.111661 seconds
+  Import took 0.116804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_32.prefab
+  artifactKey: Guid(9be0d995fed603e4ab602f1876822367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_32.prefab using Guid(9be0d995fed603e4ab602f1876822367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be25e93671e6646a8e98ade5ba1b594e') in 0.114515 seconds
+  Import took 0.120281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_9.prefab
+  artifactKey: Guid(25e174f01bb909c498d9cbeace49248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_9.prefab using Guid(25e174f01bb909c498d9cbeace49248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bca0ccc5e22eb221641b44f7c8e31d') in 0.115594 seconds
+  Import took 0.120408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_5.prefab
+  artifactKey: Guid(14af61526e730a945aa4225941e0d3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_5.prefab using Guid(14af61526e730a945aa4225941e0d3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357ade62f479aa0d1093feb8a9264dfd') in 0.110477 seconds
+  Import took 0.116645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_20.prefab
+  artifactKey: Guid(3a9b72d4894a8a544b694f16ce682675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_20.prefab using Guid(3a9b72d4894a8a544b694f16ce682675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b8ace721bb44336de140bc8981acfc') in 0.111698 seconds
+  Import took 0.117011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_22.prefab
+  artifactKey: Guid(c2f72c2a14ea7744e9e506ae8995377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_22.prefab using Guid(c2f72c2a14ea7744e9e506ae8995377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a6af06f950ec56b11d988b10cd5c0f') in 0.114352 seconds
+  Import took 0.119225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_45.prefab
+  artifactKey: Guid(a7f7ccdf75c3490459c49599d25f1202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_45.prefab using Guid(a7f7ccdf75c3490459c49599d25f1202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49c05e41b1d209a316814ba0748fa18') in 0.116990 seconds
+  Import took 0.121921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_49.prefab
+  artifactKey: Guid(9b363c802dd012f499e9019d98e93fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_49.prefab using Guid(9b363c802dd012f499e9019d98e93fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e18bb7a12da107ce8b8fe30b03120bf') in 0.119133 seconds
+  Import took 0.124041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_26.prefab
+  artifactKey: Guid(856fb2c8bf8cf2749b3b0893a5cc21dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_26.prefab using Guid(856fb2c8bf8cf2749b3b0893a5cc21dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14892a3d619281360b0b0344706a3571') in 0.110774 seconds
+  Import took 0.115825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_52.prefab
+  artifactKey: Guid(9faeff48e93edf346a63456f3c80ccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_52.prefab using Guid(9faeff48e93edf346a63456f3c80ccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0bc93d27ae8a5ccd5a01f4c2af910a') in 0.119572 seconds
+  Import took 0.124627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_60.prefab
+  artifactKey: Guid(ee0abe2540453214f8d453a95ca84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_60.prefab using Guid(ee0abe2540453214f8d453a95ca84402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d9755dc61814f5a9fde8ec069552ad') in 0.119994 seconds
+  Import took 0.125637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_25.prefab
+  artifactKey: Guid(8783420e76fec2b4cbe7c1b7f429029e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_25.prefab using Guid(8783420e76fec2b4cbe7c1b7f429029e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418fcc4315b478343157a41813cbc010') in 0.121794 seconds
+  Import took 0.127550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_59.prefab
+  artifactKey: Guid(7b1125ad063d5524eb23f01f75308c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_59.prefab using Guid(7b1125ad063d5524eb23f01f75308c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e28e8cc2788846e8bc2dd0f31e482c') in 0.122061 seconds
+  Import took 0.127078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_62.prefab
+  artifactKey: Guid(73e3e1b213574af4cac62c97edbb9696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_62.prefab using Guid(73e3e1b213574af4cac62c97edbb9696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73364e6da1fd3413d6fe49b0ba34070d') in 0.121880 seconds
+  Import took 0.126699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_44.prefab
+  artifactKey: Guid(d36c90afacf06554693a1b9aa47c7f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_44.prefab using Guid(d36c90afacf06554693a1b9aa47c7f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93f9147b66cb88e8ae12fe78c0a5c91') in 0.119952 seconds
+  Import took 0.124846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_6.prefab
+  artifactKey: Guid(d0a8f8b8fdf2bf64dbf41dbb47b051c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_6.prefab using Guid(d0a8f8b8fdf2bf64dbf41dbb47b051c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b369389984fdec4f05ebf111b25964d') in 0.110685 seconds
+  Import took 0.115474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_10.prefab
+  artifactKey: Guid(7e7bb5cb149b11f479b4b21b862ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_10.prefab using Guid(7e7bb5cb149b11f479b4b21b862ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ae7407841b0c7e63f57268b20067d4') in 0.116908 seconds
+  Import took 0.121643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_3.prefab
+  artifactKey: Guid(0e4980a51e7999e43874648126fb403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_3.prefab using Guid(0e4980a51e7999e43874648126fb403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08eb0cc518521c938677d7c9e63c79c4') in 0.114120 seconds
+  Import took 0.118849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_1.prefab
+  artifactKey: Guid(b92d1ded868fa4f4bb16f0e1a582a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_1.prefab using Guid(b92d1ded868fa4f4bb16f0e1a582a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d414d7187121e4e6d85e473613f381') in 0.112214 seconds
+  Import took 0.117504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_13.prefab
+  artifactKey: Guid(dddeae364685b6840bad967265db59ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_13.prefab using Guid(dddeae364685b6840bad967265db59ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7d16c9dc8aa412a470c2c799c9e140') in 0.119143 seconds
+  Import took 0.124041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_42.prefab
+  artifactKey: Guid(c1d9f901166e902439de90f0e3a4b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_42.prefab using Guid(c1d9f901166e902439de90f0e3a4b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8e6fe8ce2423b486ac66d6df63eaf0') in 0.118489 seconds
+  Import took 0.123655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_40.prefab
+  artifactKey: Guid(0015bf57561e5004f8120e01369377b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_40.prefab using Guid(0015bf57561e5004f8120e01369377b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a65cd6a1356be575fcc1180cdf63a10') in 0.112948 seconds
+  Import took 0.118087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_2.prefab
+  artifactKey: Guid(87d8a6a3ff14ce04ca6fbf07725820ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_2.prefab using Guid(87d8a6a3ff14ce04ca6fbf07725820ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ab44fd62a96d99ca3625f2f41a772c') in 0.109307 seconds
+  Import took 0.114317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_15.prefab
+  artifactKey: Guid(5e32cc25a885e054483135ac538f2946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_15.prefab using Guid(5e32cc25a885e054483135ac538f2946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96647da484430fc1cde2e0204486c456') in 0.112532 seconds
+  Import took 0.117350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_11.prefab
+  artifactKey: Guid(355990abf8596fe46bee8755f0bcbc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_11.prefab using Guid(355990abf8596fe46bee8755f0bcbc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ab8d4623f31238f051285b7b987ab1') in 0.115427 seconds
+  Import took 0.120661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_14.prefab
+  artifactKey: Guid(fb4d2ff767256c4458285aafbb81c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_14.prefab using Guid(fb4d2ff767256c4458285aafbb81c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e97cc05f7d78aa79d31be4e8fc89b0d') in 0.106714 seconds
+  Import took 0.112023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_24.prefab
+  artifactKey: Guid(ffc37ee82b994004e96f8bc04337fdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_24.prefab using Guid(ffc37ee82b994004e96f8bc04337fdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40413c50bbf883762ca4deddab5e80a') in 0.117501 seconds
+  Import took 0.122347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_28.prefab
+  artifactKey: Guid(cc212c2d511e8b541a5e176b44a8a5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_28.prefab using Guid(cc212c2d511e8b541a5e176b44a8a5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae611abc0b0b375fd0c256ea284d850') in 0.116300 seconds
+  Import took 0.122018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_7.prefab
+  artifactKey: Guid(53492d68ecd45c54fb3453f608aff1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_7.prefab using Guid(53492d68ecd45c54fb3453f608aff1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416979bc33298c92097be2a8220696ff') in 0.114679 seconds
+  Import took 0.119637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_41.prefab
+  artifactKey: Guid(622e38545f72ef94faa35a2823d844cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_41.prefab using Guid(622e38545f72ef94faa35a2823d844cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a64458c4d9ad06d7193781311a083c7') in 0.107341 seconds
+  Import took 0.112110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_19.prefab
+  artifactKey: Guid(b1f0da5e404c0474db5afa96ec12b35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_19.prefab using Guid(b1f0da5e404c0474db5afa96ec12b35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09a7cf4a10fb252f21968a46f3562a8') in 0.111216 seconds
+  Import took 0.116218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_35.prefab
+  artifactKey: Guid(dd128f87c9e1b0845ad2bd14c7216314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_35.prefab using Guid(dd128f87c9e1b0845ad2bd14c7216314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbc54489d23f06e447727f4c03960bf') in 0.114136 seconds
+  Import took 0.119418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_50.prefab
+  artifactKey: Guid(c360a577ca4574e45a25084be8bfbdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_50.prefab using Guid(c360a577ca4574e45a25084be8bfbdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8e9a0b823db764ec3ab97dbc41b35d') in 0.120869 seconds
+  Import took 0.125622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_16.prefab
+  artifactKey: Guid(4ca41f1c15bfff445b0ac8940b5ab13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_16.prefab using Guid(4ca41f1c15bfff445b0ac8940b5ab13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e29b1dc9c6797c0e8c917bed529da4') in 0.114142 seconds
+  Import took 0.119086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_17.prefab
+  artifactKey: Guid(f6d4086f28865f542a727a863e77c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_17.prefab using Guid(f6d4086f28865f542a727a863e77c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb3d44790a821adcbd7d3123ffbea93') in 0.113987 seconds
+  Import took 0.119194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_27.prefab
+  artifactKey: Guid(3650b418b205ead4f832dea206f387b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_27.prefab using Guid(3650b418b205ead4f832dea206f387b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1082554c11605e30048eb9c4372a7529') in 0.112081 seconds
+  Import took 0.116914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_31.prefab
+  artifactKey: Guid(00b938cdf97b15e4186ffb6ac96761af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_31.prefab using Guid(00b938cdf97b15e4186ffb6ac96761af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647975a1bc12aed20c6d7adaa021386f') in 0.115442 seconds
+  Import took 0.121307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_53.prefab
+  artifactKey: Guid(d5abc3c99e374054595c8e3b37ca31e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_53.prefab using Guid(d5abc3c99e374054595c8e3b37ca31e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d553830fd5c2263ca67e2b3e3ae7160') in 0.113926 seconds
+  Import took 0.119112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_29.prefab
+  artifactKey: Guid(fea9b794fd16e8f4d958f3cca7e62fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_29.prefab using Guid(fea9b794fd16e8f4d958f3cca7e62fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c5b96d67f3e7baa850a942753d5a40') in 0.112035 seconds
+  Import took 0.117184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_30.prefab
+  artifactKey: Guid(f121fd59d01e74341b044540f52477d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_30.prefab using Guid(f121fd59d01e74341b044540f52477d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5cc6101b178cfd86388ba811542aca') in 0.106373 seconds
+  Import took 0.111536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_55.prefab
+  artifactKey: Guid(fb4f0e18a7a81944a82776e2dbca3a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_55.prefab using Guid(fb4f0e18a7a81944a82776e2dbca3a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2339e12eca70f52315a2b6cf8b60ebb9') in 0.116802 seconds
+  Import took 0.121820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4085.968150 seconds.
+  path: Assets/Materials/Materials/Flowers/Waldemarst/BroccoTree_2.prefab
+  artifactKey: Guid(29819ca68ac0f984bb561c1a6ea6668b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/Waldemarst/BroccoTree_2.prefab using Guid(29819ca68ac0f984bb561c1a6ea6668b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081dc901f883a79226f427979ff47b6b') in 0.483725 seconds
+  Import took 0.504552 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.172218 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.167 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2601 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.2 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3107.
+Total: 9.865000 ms (FindLiveObjects: 0.711600 ms CreateObjectMapping: 0.214800 ms MarkObjects: 8.767400 ms  DeleteObjects: 0.169000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 114.894223 seconds.
+  path: Assets/Materials/Materials/Flowers/PlantGen/flower/flower1/colors
+  artifactKey: Guid(3838882827cb468469a6afcf239e88f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/PlantGen/flower/flower1/colors using Guid(3838882827cb468469a6afcf239e88f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed20620fea445ee4c5a43478b98f36f') in 0.029610 seconds
+  Import took 0.045315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.666841 seconds.
+  path: Assets/Materials/Materials/Flowers/PlantGen/flower/flower1
+  artifactKey: Guid(555fc4701073b9f4ab7c3878447e763f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/PlantGen/flower/flower1 using Guid(555fc4701073b9f4ab7c3878447e763f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675aaf77a9c0906c3277c1e8e05dff8e') in 0.018701 seconds
+  Import took 0.025252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.371506 seconds.
+  path: Assets/Materials/Materials/Flowers/Tree_Textures/diffuse.png
+  artifactKey: Guid(4227fb57ae569ca4ab7e0873185806ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/Tree_Textures/diffuse.png using Guid(4227fb57ae569ca4ab7e0873185806ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97ffd641b5b221e2c2f297cde7b8d0d') in 0.080612 seconds
+  Import took 0.088508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Materials/Materials/Flowers/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(64a2e78aa5a122f4e89b305170f7984f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/Tree_Textures/translucency_gloss.png using Guid(64a2e78aa5a122f4e89b305170f7984f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fe480ff5cce91d763b67dea4cf2185') in 0.043881 seconds
+  Import took 0.055165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Materials/Materials/Flowers/Tree_Textures/normal_specular.png
+  artifactKey: Guid(eb4b776c0c250e1469a938527d78bb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/Tree_Textures/normal_specular.png using Guid(eb4b776c0c250e1469a938527d78bb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45f314202fc093a1d05eef5a08ac1b1') in 0.068252 seconds
+  Import took 0.080288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Materials/Materials/Flowers/Tree_Textures/shadow.png
+  artifactKey: Guid(c5da73c3811a2124c9c74afbab6eea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/Tree_Textures/shadow.png using Guid(c5da73c3811a2124c9c74afbab6eea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8353e648c3c2b4f7299a9cb9ca024f15') in 0.044103 seconds
+  Import took 0.053364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011659 seconds.
+  path: Assets/Materials/Materials/Flowers/Tree_Textures/shadow.png
+  artifactKey: Guid(c5da73c3811a2124c9c74afbab6eea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/Tree_Textures/shadow.png using Guid(c5da73c3811a2124c9c74afbab6eea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8353e648c3c2b4f7299a9cb9ca024f15') in 0.024663 seconds
+  Import took 0.045582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.160984 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/atlas.png
+  artifactKey: Guid(495b05694d5eaad428f1609d9666c906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/atlas.png using Guid(495b05694d5eaad428f1609d9666c906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413cba4c68decefd9aecc437a377630f') in 0.026016 seconds
+  Import took 0.039809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/bark.png
+  artifactKey: Guid(bd8a3d8cff7b5cb498270a3d41cba483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/bark.png using Guid(bd8a3d8cff7b5cb498270a3d41cba483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd952212cd1eacd2da0b335bb4d4a01') in 0.087107 seconds
+  Import took 0.093665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/billboard.png
+  artifactKey: Guid(1da91516a2226de45a6037913994b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/billboard.png using Guid(1da91516a2226de45a6037913994b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f80aa9a03a962690e29f080255411b0') in 0.117714 seconds
+  Import took 0.125112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/translucency_gloss.png
+  artifactKey: Guid(cea007bdb0338e24fb3ebc43a1d124b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/translucency_gloss.png using Guid(cea007bdb0338e24fb3ebc43a1d124b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafef24286c79637aad66aacd93c97ff') in 0.112731 seconds
+  Import took 0.121825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/normal_atlas.png
+  artifactKey: Guid(5e7ed83bcdaaa7a42bc73aaba67f23b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/normal_atlas.png using Guid(5e7ed83bcdaaa7a42bc73aaba67f23b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3c9686bc40911c5b71cd5f1ec15c44') in 0.076615 seconds
+  Import took 0.083984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/billboard_normal.png
+  artifactKey: Guid(8ba0b6e5589281f4591dd2ef76020384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/billboard_normal.png using Guid(8ba0b6e5589281f4591dd2ef76020384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a51117a43caf3c4b7197c35c4c550d') in 0.100085 seconds
+  Import took 0.109389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/shadow.png
+  artifactKey: Guid(d8d1f5e9012c3144db8608c3cdac409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_63_Textures/shadow.png using Guid(d8d1f5e9012c3144db8608c3cdac409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc29443a3097a8af38e5af40db133e98') in 0.026548 seconds
+  Import took 0.040544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.444901 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoliOF.unity
+  artifactKey: Guid(7a67941529e29c5459dbae8d1bb3480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoliOF.unity using Guid(7a67941529e29c5459dbae8d1bb3480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4c5c49871fba188e684624c3aaff59') in 0.022975 seconds
+  Import took 0.033832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.256600 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed4e80316e34f41c1d8112039191963') in 0.022212 seconds
+  Import took 0.034032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.322919 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_0_Textures
+  artifactKey: Guid(c6e94bdd5b8c6f54cb4bc5b48a23567e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_0_Textures using Guid(c6e94bdd5b8c6f54cb4bc5b48a23567e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f5c96fb724075fc367b0b104dface6') in 0.013921 seconds
+  Import took 0.035306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077387 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/atlas.png
+  artifactKey: Guid(854291b1557abfd41888eb96885385f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/atlas.png using Guid(854291b1557abfd41888eb96885385f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdec818fb641734874540df1092edf2f') in 0.024993 seconds
+  Import took 0.035412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/normal_atlas.png
+  artifactKey: Guid(569e8e62713d3454f83c3cce39b8cdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/normal_atlas.png using Guid(569e8e62713d3454f83c3cce39b8cdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b2d8bcdc37ac0add9158299ce9c7e9') in 0.034947 seconds
+  Import took 0.050032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/bark.png
+  artifactKey: Guid(203ee3dd72832f043bc968f7a03f93c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/bark.png using Guid(203ee3dd72832f043bc968f7a03f93c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37186e9ae51c07ec152ddb70156ecffa') in 0.048892 seconds
+  Import took 0.062668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/billboard_normal.png
+  artifactKey: Guid(1cf9480647475d642b49b5ad692bc5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/billboard_normal.png using Guid(1cf9480647475d642b49b5ad692bc5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcf5b8cf3b8d0d391c34012932a8469') in 0.079333 seconds
+  Import took 0.086632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/shadow.png
+  artifactKey: Guid(f86e24874ba5a4d48871ef9e52791f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/shadow.png using Guid(f86e24874ba5a4d48871ef9e52791f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504d15ace2c4281bd73db71247907a5e') in 0.029069 seconds
+  Import took 0.045675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/translucency_gloss.png
+  artifactKey: Guid(cf1cb886f290b1341b9958eccdf28a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/translucency_gloss.png using Guid(cf1cb886f290b1341b9958eccdf28a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22d173ecdd1d58e8ee905484a6b00e3') in 0.033389 seconds
+  Import took 0.050664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/billboard.png
+  artifactKey: Guid(991efe7b111112f4fb6d15d3f4d898e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/billboard.png using Guid(991efe7b111112f4fb6d15d3f4d898e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f386d2b527d08a050edeaea55a5e6ba') in 0.076838 seconds
+  Import took 0.087045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/bark_normal.png
+  artifactKey: Guid(486595507cb5a454c85f79e9353bf78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_0_Textures/bark_normal.png using Guid(486595507cb5a454c85f79e9353bf78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ee9a22267a7bbc501283065c4553db') in 0.047451 seconds
+  Import took 0.085761 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012755 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.674 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2601 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.8 MB.
+System memory in use after: 120.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3113.
+Total: 4.394600 ms (FindLiveObjects: 0.724700 ms CreateObjectMapping: 0.576300 ms MarkObjects: 2.913600 ms  DeleteObjects: 0.178200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.308 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2601 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.8 MB.
+System memory in use after: 120.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3118.
+Total: 3.179300 ms (FindLiveObjects: 0.349400 ms CreateObjectMapping: 0.152300 ms MarkObjects: 2.536400 ms  DeleteObjects: 0.139800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3119.
+Total: 10.956600 ms (FindLiveObjects: 0.463800 ms CreateObjectMapping: 0.201400 ms MarkObjects: 10.076400 ms  DeleteObjects: 0.212100 ms)
+
