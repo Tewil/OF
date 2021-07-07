@@ -11,12 +11,23 @@ public class Navigation : MonoBehaviour
     public GameObject home_panel;
 	public GameObject craft_panel;
 	public GameObject plant_panel;
+	public GameObject example;
 	
+	
+	void Start()
+    {
+		
+        home_panel.SetActive(true);
+		craft_panel.SetActive(false);
+		plant_panel.SetActive(false);
+        
+    }
 	public void homePage() 
 	{
 		home_panel.SetActive(true);
 		craft_panel.SetActive(false);
 		plant_panel.SetActive(false);
+		example.SetActive(false);
 		
 	}
 	
@@ -25,6 +36,7 @@ public class Navigation : MonoBehaviour
 		home_panel.SetActive(false);
 		craft_panel.SetActive(true);
 		plant_panel.SetActive(false);
+		example.SetActive(false);
 		
 	}
 	
@@ -33,6 +45,7 @@ public class Navigation : MonoBehaviour
 		home_panel.SetActive(false);
 		craft_panel.SetActive(false);
 		plant_panel.SetActive(true);
+		example.SetActive(false);
 		LoaderUtility.Initialize();
 		SceneManager.LoadSceneAsync("PlantScene", LoadSceneMode.Single);
 		
