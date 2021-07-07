@@ -22,7 +22,7 @@ public class PNGGenerate : MonoBehaviour
 	
     public void generatePNG() 
 	{
-		
+		//could not be the right component; can be the button i grabbed there
 		myImageComponent = this.GetComponent<Image>();
 		//TODO:
 		//Print png to myImageComponent = Source Image of Image in panel
