@@ -121,6 +121,7 @@
      <Compile Include="Assets\Waldemarst\Broccoli\Factory\Manager\ComponentManager.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Builder\StylizedMetaBuilder.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Factory\Components\WindEffectComponent.cs" />
+     <Compile Include="Assets\Scripts\PNGGenerate.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Node_Editor\Node_Editor\Framework\NodeCanvasSceneSave.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Node_Editor\Node_Editor\Utilities\ResourceManager.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Factory\Manager\MaterialManager.cs" />
@@ -170,8 +171,9 @@
      <Compile Include="Assets\Waldemarst\Broccoli\Pipe\Members\Position.cs" />
      <Compile Include="Assets\Waldemarst\BroccoliExamples\Scripts\CameraRotateAround.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Factory\TreeFactory.cs" />
-     <Compile Include="Assets\Waldemarst\Broccoli\Factory\Components\BranchMeshGeneratorComponent.cs" />
+     <Compile Include="Assets\Scripts\PNGListCreator.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Utils\BezierCurveDraw.cs" />
+     <Compile Include="Assets\Waldemarst\Broccoli\Factory\Components\BranchMeshGeneratorComponent.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Pipe\Elements\TrunkMeshGeneratorElement.cs" />
      <Compile Include="Assets\Waldemarst\BroccoliExamples\Scripts\RuntimeSceneController.cs" />
      <None Include="Assets\Waldemarst\Broccoli\Resources\Broccoli\Shaders\TreeCreatorBarkColored.shader" />
