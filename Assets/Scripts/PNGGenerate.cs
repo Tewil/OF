@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PNGGenerate : MonoBehaviour
 {
-	public Texture png;
+	public Sprite png;
 	
 	public Image myImageComponent;
 	
@@ -27,13 +27,9 @@ public class PNGGenerate : MonoBehaviour
     public void generatePNG() 
 	{
 		
-		Sprite NewSprite = Sprite.Create((Texture2D)png,
-		new Rect(0, 0, 100, 100), 
-		new Vector2(0, 0), 1, 0);
 		
-		example.SetActive(true);
-		//hanging up down here
-		myImageComponent.sprite = NewSprite;
+		
+		myImageComponent.overrideSprite = png;
 		
 		
 	}

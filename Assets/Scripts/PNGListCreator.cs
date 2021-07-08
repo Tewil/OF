@@ -5,7 +5,6 @@ using UnityEngine;
 public class PNGListCreator : MonoBehaviour
 {
 	
-	public Texture[] pngs;
-    // Start is called before the first frame update
+	public Sprite[] pngs;
     
 }

@@ -607,7 +607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   png: {fileID: 0}
-  myImageComponent: {fileID: 0}
+  myImageComponent: {fileID: 1129808121}
   example: {fileID: 786270577}
 --- !u!1 &786270577
 GameObject:
@@ -1667,7 +1667,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -149, y: 606}
+  m_AnchoredPosition: {x: -280, y: 712}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1964879334
