@@ -16,7 +16,6 @@ ScriptsOnlyBuild:
     - Navigation
     - ObjectSpawner
     - PNGGenerate
-    - PNGListCreator
     - PlacementIndicator
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -132,8 +131,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6492}
     - Class: 114
       Script: {instanceID: 6568}
-    - Class: 114
-      Script: {instanceID: 6614}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -714,7 +711,7 @@ ScriptsOnlyBuild:
     className: ARAnchorManager
   - hash:
       serializedVersion: 2
-      Hash: f3b9258927900c15b774ad506d0255b5
+      Hash: 176d8ad8fa82b742721e6d1d0a6d96b1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PNGGenerate
