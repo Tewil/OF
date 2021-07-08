@@ -8,6 +8,7 @@ public class PNGGenerate : MonoBehaviour
 	public Sprite png;
 	public Image myImageComponent;
 	public Sprite[] pngs;
+	public GameObject[] flowers;
 	
 	
 	

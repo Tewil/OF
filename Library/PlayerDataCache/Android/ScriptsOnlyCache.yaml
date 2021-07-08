@@ -166,6 +166,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -711,7 +713,7 @@ ScriptsOnlyBuild:
     className: ARAnchorManager
   - hash:
       serializedVersion: 2
-      Hash: 176d8ad8fa82b742721e6d1d0a6d96b1
+      Hash: 2d4b2cbf39a03f961e4587e4a896a970
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PNGGenerate
@@ -1125,7 +1127,7 @@ ScriptsOnlyBuild:
     className: ARPointCloud
   - hash:
       serializedVersion: 2
-      Hash: 179c063a2e8f5df45b549883301df837
+      Hash: 949b21d439ba06055a6cded4050ba878
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Navigation
