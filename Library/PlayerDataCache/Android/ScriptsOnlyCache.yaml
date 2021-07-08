@@ -13,10 +13,12 @@ ScriptsOnlyBuild:
     - Broccoli.Pipe.SproutMeshGeneratorElement
     - Broccoli.Pipe.StructureGeneratorElement
     - Broccoli.Pipe.WindEffectElement
+    - DragHandler
     - Navigation
     - ObjectSpawner
     - PNGGenerate
     - PlacementIndicator
+    - Slot
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -92,7 +94,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 664}
+      Script: {instanceID: 666}
     - Class: 114
       Script: {instanceID: 2216}
     - Class: 114
@@ -137,6 +139,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7180}
     - Class: 114
       Script: {instanceID: 7256}
+    - Class: 114
+      Script: {instanceID: 33940}
+    - Class: 114
+      Script: {instanceID: 39484}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1199,8 +1205,20 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Broccoli.Examples
     className: RuntimeSceneController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DragHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Slot
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainScene.unity
   - Assets/Scenes/PlantScene.unity
-  playerPath: C:/Users/jonwa/Desktop/apk/OverFlower.apk
+  playerPath: C:/Users/Thors/Desktop/test.apk

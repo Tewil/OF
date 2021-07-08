@@ -1,621 +1,867 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.1083; Version 2004; 64bit' Language: 'en' Physical Memory: 8108 MB
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1052; Version 2004; 64bit' Language: 'de' Physical Memory: 16334 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Users\Thors\Desktop\New folder\2020.3.11f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Thors/dev/unity/projects/OF
+C:/Users/jonwa/Documents/GitHub/OF
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51346
-Successfully changed project path to: C:/Users/Thors/dev/unity/projects/OF
-C:/Users/Thors/dev/unity/projects/OF
+59886
+Successfully changed project path to: C:/Users/jonwa/Documents/GitHub/OF
+C:/Users/jonwa/Documents/GitHub/OF
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 163.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Thors/dev/unity/projects/OF/Assets
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jonwa/Documents/GitHub/OF/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   
-    VRAM:     4054 MB
-    Driver:   26.20.100.7925
+    VRAM:     4018 MB
+    Driver:   27.21.14.5671
 Initialize mono
-Mono path[0] = 'C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/Thors/Desktop/New folder/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002436 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001855 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.558 seconds
+- Completed reload, in  1.525 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006320 seconds.
+Registered in 0.003956 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.567 seconds
+- Completed reload, in  0.980 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2616 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 117.5 MB.
+System memory in use before: 117.6 MB.
 System memory in use after: 117.6 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3056.
-Total: 3.000100 ms (FindLiveObjects: 0.283000 ms CreateObjectMapping: 0.127900 ms MarkObjects: 2.423300 ms  DeleteObjects: 0.164700 ms)
+Total: 2.119000 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.058200 ms MarkObjects: 1.704800 ms  DeleteObjects: 0.128800 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
   path: Assets/Materials/Materials/Flowers/BroccoTree_4.prefab
   artifactKey: Guid(3d801626a8607ed4fbcd44088dcef2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_4.prefab using Guid(3d801626a8607ed4fbcd44088dcef2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51eb551376cdb413dc223b4feb852212') in 0.323109 seconds
-  Import took 0.328679 seconds .
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_4.prefab using Guid(3d801626a8607ed4fbcd44088dcef2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43de9852924887abbb50ab993aa78b3') in 0.176911 seconds 
+  Import took 0.180756 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000567 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_21.prefab
-  artifactKey: Guid(e0047b1480ad48c4a81b91823dff722e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_21.prefab using Guid(e0047b1480ad48c4a81b91823dff722e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f479586ca20721ccd160b782189cfe') in 0.116203 seconds
-  Import took 0.122009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_18.prefab
-  artifactKey: Guid(6b612b111ec40aa4c8953bc74c5fce28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_18.prefab using Guid(6b612b111ec40aa4c8953bc74c5fce28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a5d5df44ea6dd6ad9721824b5ed4e4') in 0.126308 seconds
-  Import took 0.132188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
+  Time since last request: 0.000241 seconds.
   path: Assets/Materials/Materials/Flowers/BroccoTree_8.prefab
   artifactKey: Guid(f41d8987849e9e344bcf3f8b5960afd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_8.prefab using Guid(f41d8987849e9e344bcf3f8b5960afd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c963e84a1aa2ae4e241b661acc7fbe') in 0.125409 seconds
-  Import took 0.130224 seconds .
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_8.prefab using Guid(f41d8987849e9e344bcf3f8b5960afd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c4742dcb418421e84c87305f508343') in 0.047352 seconds 
+  Import took 0.050555 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
+  Time since last request: 0.000184 seconds.
   path: Assets/Materials/Materials/Flowers/BroccoTree_6.prefab
   artifactKey: Guid(d0a8f8b8fdf2bf64dbf41dbb47b051c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_6.prefab using Guid(d0a8f8b8fdf2bf64dbf41dbb47b051c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020a0f0b0f83aca2691f7eb0e6eedc3c') in 0.126030 seconds
-  Import took 0.131245 seconds .
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_6.prefab using Guid(d0a8f8b8fdf2bf64dbf41dbb47b051c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe70cee04e4c7070a972111234f23ca') in 0.047843 seconds 
+  Import took 0.050947 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
+  Time since last request: 0.000183 seconds.
   path: Assets/Materials/Materials/Flowers/BroccoTree_10.prefab
   artifactKey: Guid(7e7bb5cb149b11f479b4b21b862ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_10.prefab using Guid(7e7bb5cb149b11f479b4b21b862ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2909279e6b8a002dc274e49a3a71c8') in 0.122257 seconds
-  Import took 0.127751 seconds .
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_10.prefab using Guid(7e7bb5cb149b11f479b4b21b862ce487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbcf5fa83d1c71e02b7fa221964b93d') in 0.045400 seconds 
+  Import took 0.049095 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
+  Time since last request: 0.000190 seconds.
   path: Assets/Materials/Materials/Flowers/BroccoTree_3.prefab
   artifactKey: Guid(0e4980a51e7999e43874648126fb403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_3.prefab using Guid(0e4980a51e7999e43874648126fb403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c46747bd95398e6a0d3faad5f4ae977') in 0.125939 seconds
-  Import took 0.130925 seconds .
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_3.prefab using Guid(0e4980a51e7999e43874648126fb403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179fd1cd623c23212c73e8f8103f7742') in 0.046659 seconds 
+  Import took 0.049903 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
+  Time since last request: 0.000253 seconds.
   path: Assets/Materials/Materials/Flowers/BroccoTree_1.prefab
   artifactKey: Guid(b92d1ded868fa4f4bb16f0e1a582a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_1.prefab using Guid(b92d1ded868fa4f4bb16f0e1a582a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979b5dd626e87c5169a78918358e3f56') in 0.117868 seconds
-  Import took 0.122945 seconds .
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_1.prefab using Guid(b92d1ded868fa4f4bb16f0e1a582a72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1359b07729e7e3cf8d110e4a557a8e') in 0.047104 seconds 
+  Import took 0.050695 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_13.prefab
-  artifactKey: Guid(dddeae364685b6840bad967265db59ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_13.prefab using Guid(dddeae364685b6840bad967265db59ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b8cfe3372b7023ac668dd23b4b7a4e') in 0.117534 seconds
-  Import took 0.122637 seconds .
+  Time since last request: 0.000178 seconds.
+  path: Assets/Materials/Materials/Screens/flower1
+  artifactKey: Guid(f95192f9dbaa09f48ab95c22dc7e9e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1 using Guid(f95192f9dbaa09f48ab95c22dc7e9e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca16e0dcb464092663a35174d4656cf') in 0.001812 seconds 
+  Import took 0.004427 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_12.prefab
-  artifactKey: Guid(a7389d8abbd42614085ddca2be678850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_12.prefab using Guid(a7389d8abbd42614085ddca2be678850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65e028aefbcb106627744b096333f87') in 0.116471 seconds
-  Import took 0.121669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
+  Time since last request: 0.000191 seconds.
   path: Assets/Materials/Materials/Flowers/BroccoTree_2.prefab
   artifactKey: Guid(87d8a6a3ff14ce04ca6fbf07725820ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_2.prefab using Guid(87d8a6a3ff14ce04ca6fbf07725820ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a70d0aeea915ed0546b31e3834f5b1') in 0.119898 seconds
-  Import took 0.124703 seconds .
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_2.prefab using Guid(87d8a6a3ff14ce04ca6fbf07725820ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcc133a2b9d40d80f4fbef413858044') in 0.047188 seconds 
+  Import took 0.050778 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_15.prefab
-  artifactKey: Guid(5e32cc25a885e054483135ac538f2946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_15.prefab using Guid(5e32cc25a885e054483135ac538f2946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bd25e722427256eca2196b9a819ed0') in 0.119572 seconds
-  Import took 0.125961 seconds .
+  Time since last request: 0.000243 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/flower1_short.png
+  artifactKey: Guid(d43e0675cb8c8154d8cb34f806c21f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/flower1_short.png using Guid(d43e0675cb8c8154d8cb34f806c21f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffab8d664abe11f835e557457eece7a') in 0.047074 seconds 
+  Import took 0.050374 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
+  Time since last request: 0.000230 seconds.
   path: Assets/Materials/Materials/Flowers/BroccoTree_11.prefab
   artifactKey: Guid(355990abf8596fe46bee8755f0bcbc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_11.prefab using Guid(355990abf8596fe46bee8755f0bcbc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee259cdbbf8088948a106a1f812629f6') in 0.116529 seconds
-  Import took 0.121489 seconds .
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_11.prefab using Guid(355990abf8596fe46bee8755f0bcbc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f9582c1969b949bf1fd371f84737cb') in 0.046490 seconds 
+  Import took 0.050077 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_23.prefab
-  artifactKey: Guid(818f00e6aacfc1148be1e840d7d80b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_23.prefab using Guid(818f00e6aacfc1148be1e840d7d80b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c4167b5ccb32bc75db6d245eb00a6f') in 0.125002 seconds
-  Import took 0.130448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_14.prefab
-  artifactKey: Guid(fb4d2ff767256c4458285aafbb81c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_14.prefab using Guid(fb4d2ff767256c4458285aafbb81c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbf8513265925146fe467a976e17e1f') in 0.142804 seconds
-  Import took 0.148797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_24.prefab
-  artifactKey: Guid(ffc37ee82b994004e96f8bc04337fdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_24.prefab using Guid(ffc37ee82b994004e96f8bc04337fdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b616005485ff786a7f3742a42f174f') in 0.126929 seconds
-  Import took 0.132509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
+  Time since last request: 0.000183 seconds.
   path: Assets/Materials/Materials/Flowers/BroccoTree_7.prefab
   artifactKey: Guid(53492d68ecd45c54fb3453f608aff1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_7.prefab using Guid(53492d68ecd45c54fb3453f608aff1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218785f9e3fb20ba88289c16dafa2fa5') in 0.125488 seconds
-  Import took 0.130719 seconds .
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_7.prefab using Guid(53492d68ecd45c54fb3453f608aff1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586ba66bc03c694cf1aed0a146b1e959') in 0.045957 seconds 
+  Import took 0.049055 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
+  Time since last request: 0.000239 seconds.
   path: Assets/Materials/Materials/Flowers/BroccoTree_9.prefab
   artifactKey: Guid(25e174f01bb909c498d9cbeace49248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_9.prefab using Guid(25e174f01bb909c498d9cbeace49248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5867d1e7915d91dc75083eb64ebc23d0') in 0.120919 seconds
-  Import took 0.126789 seconds .
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_9.prefab using Guid(25e174f01bb909c498d9cbeace49248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26dfb6a592d7e6bff8f74a1c1ee7d35e') in 0.046571 seconds 
+  Import took 0.049675 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
+  Time since last request: 0.000182 seconds.
   path: Assets/Materials/Materials/Flowers/BroccoTree_5.prefab
   artifactKey: Guid(14af61526e730a945aa4225941e0d3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_5.prefab using Guid(14af61526e730a945aa4225941e0d3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cf602c8a223f354207b64bcc5d45ea') in 0.116806 seconds
-  Import took 0.122221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_19.prefab
-  artifactKey: Guid(b1f0da5e404c0474db5afa96ec12b35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_19.prefab using Guid(b1f0da5e404c0474db5afa96ec12b35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d21b04abb90c0134d9099ae26f09b4') in 0.129992 seconds
-  Import took 0.135060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_0.prefab
-  artifactKey: Guid(f56aa061df373a3418967ca32c427b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_0.prefab using Guid(f56aa061df373a3418967ca32c427b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0013d753f63cc4dc0722f5f27114c66a') in 0.129050 seconds
-  Import took 0.135935 seconds .
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_5.prefab using Guid(14af61526e730a945aa4225941e0d3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455a7a2ac179b69b0d4e6d136635912f') in 0.045541 seconds 
+  Import took 0.048624 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000195 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_16.prefab
-  artifactKey: Guid(4ca41f1c15bfff445b0ac8940b5ab13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_16.prefab using Guid(4ca41f1c15bfff445b0ac8940b5ab13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d24e8c0bcf549ca014bc8c11d71da0') in 0.129387 seconds
-  Import took 0.134432 seconds .
+  path: Assets/Materials/Materials/Flowers/BroccoTree_0.prefab
+  artifactKey: Guid(f56aa061df373a3418967ca32c427b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_0.prefab using Guid(f56aa061df373a3418967ca32c427b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f922fd33056dd9d2f3cf2a76d5687d8e') in 0.047815 seconds 
+  Import took 0.050943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/flower1_normal.png
+  artifactKey: Guid(bd5f4b1a3d5c515488eb879475559e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/flower1_normal.png using Guid(bd5f4b1a3d5c515488eb879475559e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6995f36e364db5186dcb121908bd9bbe') in 0.009637 seconds 
+  Import took 0.012736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/flower1_big.png
+  artifactKey: Guid(1229b333ca808de48bfa7062466be94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/flower1_big.png using Guid(1229b333ca808de48bfa7062466be94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e13943e91120897d45647eab58a9a0f') in 0.010753 seconds 
+  Import took 0.013912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.113778 seconds.
+  path: Assets/BroccoTree_0_Textures/normal_atlas.png
+  artifactKey: Guid(48eb8d8caba89ec4ebc54306ab3771e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BroccoTree_0_Textures/normal_atlas.png using Guid(48eb8d8caba89ec4ebc54306ab3771e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad73eecbd16a9060a37a1db36460f395') in 0.009392 seconds 
+  Import took 0.013279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Materials/PlacementMarkerBase.png
+  artifactKey: Guid(b69f21389d706734fb5ddbd7e370aed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PlacementMarkerBase.png using Guid(b69f21389d706734fb5ddbd7e370aed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0b36d481d88268a0c136eda9a53649') in 0.008767 seconds 
+  Import took 0.011653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.290986 seconds.
+  path: Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Header_Box_B.png
+  artifactKey: Guid(e021d24a5a8264f5fa1793ddc05a970a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Header_Box_B.png using Guid(e021d24a5a8264f5fa1793ddc05a970a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41eb472d79dc708b9fc288ba4fe49722') in 0.006897 seconds 
+  Import took 0.010707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Header_Box_B_Selected.png
+  artifactKey: Guid(ced0e5a8187f845538aa72761429265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Header_Box_B_Selected.png using Guid(ced0e5a8187f845538aa72761429265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272602fb3256a935773ff8825a681ef7') in 0.005026 seconds 
+  Import took 0.007789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020088 seconds.
+  path: Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Box_Selected.png
+  artifactKey: Guid(015a451416ff04e8b862dd4eb4e8975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Box_Selected.png using Guid(015a451416ff04e8b862dd4eb4e8975f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadedbfccc1c5cf78ab590865143cada') in 0.005630 seconds 
+  Import took 0.009409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Button.png
+  artifactKey: Guid(acc3252d2ced34346a4fb935f95286e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Button.png using Guid(acc3252d2ced34346a4fb935f95286e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf1e820f939ff3706d28ce194fe014e') in 0.005823 seconds 
+  Import took 0.009088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007918 seconds.
+  path: Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Button.png
+  artifactKey: Guid(acc3252d2ced34346a4fb935f95286e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Button.png using Guid(acc3252d2ced34346a4fb935f95286e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf1e820f939ff3706d28ce194fe014e') in 0.005269 seconds 
+  Import took 0.008714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.447708 seconds.
+  path: Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Box_B.png
+  artifactKey: Guid(58e706181fee64f01bebe4a664f2d9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Box_B.png using Guid(58e706181fee64f01bebe4a664f2d9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd82e4a7c0a944c3783e1d8039701939') in 0.005277 seconds 
+  Import took 0.008811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Box_B_Selected.png
+  artifactKey: Guid(fa62d545f0d454cbdaf24c341375c958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Box_B_Selected.png using Guid(fa62d545f0d454cbdaf24c341375c958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdb29ab7082b295c513ee4b7bd19ae7') in 0.005353 seconds 
+  Import took 0.008322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Box.png
+  artifactKey: Guid(3362057e6db2cea428eb8de4a4800db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Box.png using Guid(3362057e6db2cea428eb8de4a4800db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482ccd90c461d47505820be10d1fdbf2') in 0.005060 seconds 
+  Import took 0.008045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/wind/flower4_tiny_wind.png
+  artifactKey: Guid(42b8287a0c7acbd46b922ab6e698e63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/wind/flower4_tiny_wind.png using Guid(42b8287a0c7acbd46b922ab6e698e63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a643b06fd1b36b9b87b2bc5c5c7ca8f') in 0.009439 seconds 
+  Import took 0.012606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Box.png
+  artifactKey: Guid(3362057e6db2cea428eb8de4a4800db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/Broccoli/Node_Editor/Node_Editor/Resources/Broccoli/GUI/NE_Box.png using Guid(3362057e6db2cea428eb8de4a4800db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482ccd90c461d47505820be10d1fdbf2') in 0.004931 seconds 
+  Import took 0.007916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221081 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/fire/flower4_tiny_fire.png
+  artifactKey: Guid(8710ae1537bbbc04e85c8ff25ec10880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/fire/flower4_tiny_fire.png using Guid(8710ae1537bbbc04e85c8ff25ec10880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c793c8200b68cec927080156a9b80af1') in 0.008656 seconds 
+  Import took 0.012385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/flower4_tiny.png
+  artifactKey: Guid(c1a00d370302af54e97c15e286d32bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/flower4_tiny.png using Guid(c1a00d370302af54e97c15e286d32bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856df8675c9ed72d1da3495b3971bfc4') in 0.009037 seconds 
+  Import took 0.012207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/fire/flower4_tiny_fire.png
+  artifactKey: Guid(8710ae1537bbbc04e85c8ff25ec10880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/fire/flower4_tiny_fire.png using Guid(8710ae1537bbbc04e85c8ff25ec10880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c793c8200b68cec927080156a9b80af1') in 0.006245 seconds 
+  Import took 0.009249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/wind/flower4_small_wind.png
+  artifactKey: Guid(64d094253541b8947b6af790b474cef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/wind/flower4_small_wind.png using Guid(64d094253541b8947b6af790b474cef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1160226dd26fbe25a01980e4e1b19d5a') in 0.009460 seconds 
+  Import took 0.012926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/water/flower4_tiny_water.png
+  artifactKey: Guid(09331398938039a4894eff61a1b57b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/water/flower4_tiny_water.png using Guid(09331398938039a4894eff61a1b57b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7c707d1da271d730e48ab8e6f8d71b') in 0.008094 seconds 
+  Import took 0.011782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009505 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/wind/flower4_normal_wind.png
+  artifactKey: Guid(1ae3365b3b5a343419ee62f4afc32b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/wind/flower4_normal_wind.png using Guid(1ae3365b3b5a343419ee62f4afc32b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6370e6db5f453ec0a9e13275c6fe56dd') in 0.008694 seconds 
+  Import took 0.012460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/fire/flower4_small_fire.png
+  artifactKey: Guid(7d47766742b6a2b478f703e53bed6932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/fire/flower4_small_fire.png using Guid(7d47766742b6a2b478f703e53bed6932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a48a012f50c8800245de3f67438d61') in 0.008612 seconds 
+  Import took 0.012282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/water/flower4_short_water.png
+  artifactKey: Guid(342ad6c81d1abd0438fc3a4360e651c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/water/flower4_short_water.png using Guid(342ad6c81d1abd0438fc3a4360e651c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c431cb8d29b47ee5dd6c81e31633d0ea') in 0.008896 seconds 
+  Import took 0.012588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/flower4_short.png
+  artifactKey: Guid(b43f277ce192794498ae6c9b4ef1bf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/flower4_short.png using Guid(b43f277ce192794498ae6c9b4ef1bf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0141fe74337951d2a8c783cf6521ff51') in 0.009718 seconds 
+  Import took 0.013268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001269 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/water/flower4_short_water.png
+  artifactKey: Guid(342ad6c81d1abd0438fc3a4360e651c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/water/flower4_short_water.png using Guid(342ad6c81d1abd0438fc3a4360e651c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c431cb8d29b47ee5dd6c81e31633d0ea') in 0.006822 seconds 
+  Import took 0.010642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.146797 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/fire/flower4_normal_fire.png
+  artifactKey: Guid(e9b7fe8e55ae9c745b997928ebb2a145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/fire/flower4_normal_fire.png using Guid(e9b7fe8e55ae9c745b997928ebb2a145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8bf5499f97e0f38bb74a589d258760') in 0.009335 seconds 
+  Import took 0.012986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/flower4_normal.png
+  artifactKey: Guid(6727285ee3cb9274a91692cf0386f535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/flower4_normal.png using Guid(6727285ee3cb9274a91692cf0386f535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f58d1395fb8a68cadc202f5e034999') in 0.008615 seconds 
+  Import took 0.012286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/water/flower4_normal_water.png
+  artifactKey: Guid(9b7176f8a1d1b32429fe4fd5400d6b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/water/flower4_normal_water.png using Guid(9b7176f8a1d1b32429fe4fd5400d6b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87fbd18157d9606bd5d66a3cb0e0cc5') in 0.008681 seconds 
+  Import took 0.011804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/wind/flower4_big_wind.png
+  artifactKey: Guid(cfe87adca100b4141b059f6e483f7fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/wind/flower4_big_wind.png using Guid(cfe87adca100b4141b059f6e483f7fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0baec4561117ec3a2064df8b5a15f30') in 0.008399 seconds 
+  Import took 0.011332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021996 seconds.
+  path: Assets/Materials/Materials/Screens/flower3/colors/wind/flower3_tiny_wind.png
+  artifactKey: Guid(750904e20e101544d98ffd251096bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower3/colors/wind/flower3_tiny_wind.png using Guid(750904e20e101544d98ffd251096bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fea8eb9eef98f06caac6e19c107625a') in 0.008536 seconds 
+  Import took 0.012270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/flower4_big.png
+  artifactKey: Guid(16cf1e92c0eaac245aab7bc04613083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/flower4_big.png using Guid(16cf1e92c0eaac245aab7bc04613083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa7e3c05e2109698caaea227da24536') in 0.008349 seconds 
+  Import took 0.011540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/fire/flower4_big_fire.png
+  artifactKey: Guid(df6ae007c160e9b48b1ef3cd61929741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/fire/flower4_big_fire.png using Guid(df6ae007c160e9b48b1ef3cd61929741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bfc4532faae79760fefa6c5bee7606') in 0.008760 seconds 
+  Import took 0.012382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/flower4_big.png
+  artifactKey: Guid(16cf1e92c0eaac245aab7bc04613083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/flower4_big.png using Guid(16cf1e92c0eaac245aab7bc04613083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa7e3c05e2109698caaea227da24536') in 0.007309 seconds 
+  Import took 0.010480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/water/flower4_big_water.png
+  artifactKey: Guid(a83ed19ea95a12d428271e5953fe6520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/water/flower4_big_water.png using Guid(a83ed19ea95a12d428271e5953fe6520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5fb9e9c9ecb379a2e6877ae8a003a4') in 0.009142 seconds 
+  Import took 0.012802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/fire/flower4_big_fire.png
+  artifactKey: Guid(df6ae007c160e9b48b1ef3cd61929741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/fire/flower4_big_fire.png using Guid(df6ae007c160e9b48b1ef3cd61929741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bfc4532faae79760fefa6c5bee7606') in 0.007133 seconds 
+  Import took 0.010351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005249 seconds.
+  path: Assets/Materials/Materials/Screens/flower4/colors/water/flower4_big_water.png
+  artifactKey: Guid(a83ed19ea95a12d428271e5953fe6520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower4/colors/water/flower4_big_water.png using Guid(a83ed19ea95a12d428271e5953fe6520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5fb9e9c9ecb379a2e6877ae8a003a4') in 0.007649 seconds 
+  Import took 0.011228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132567 seconds.
+  path: Assets/Materials/Materials/Screens/flower3/colors/fire/flower3_tiny_fire.png
+  artifactKey: Guid(58d30adee4374e54b8d1dbf568565e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower3/colors/fire/flower3_tiny_fire.png using Guid(58d30adee4374e54b8d1dbf568565e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40ccd4635767a3ee5179daf3e6669de') in 0.009419 seconds 
+  Import took 0.013720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Materials/Materials/Screens/flower3/colors/water/flower3_tiny_water.png
+  artifactKey: Guid(aa7a96cf23451e349bfcf5ce09241f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower3/colors/water/flower3_tiny_water.png using Guid(aa7a96cf23451e349bfcf5ce09241f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318aa2754786cdb4d5f82fad3de7681b') in 0.009033 seconds 
+  Import took 0.012739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018784 seconds.
+  path: Assets/Materials/Materials/Screens/flower3/colors/wind/flower3_short_wind.png
+  artifactKey: Guid(a29485dcbc4ae824588a85fe684ec906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower3/colors/wind/flower3_short_wind.png using Guid(a29485dcbc4ae824588a85fe684ec906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd6db8e4067181ccd5e745f1d6dd1ec') in 0.009002 seconds 
+  Import took 0.012865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Materials/Materials/Screens/flower3/flower3_tiny.png
+  artifactKey: Guid(a3762fcce74acfb449480945d9766752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower3/flower3_tiny.png using Guid(a3762fcce74acfb449480945d9766752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff144e30f675b952ccfaba6d20a3fb1d') in 0.009476 seconds 
+  Import took 0.013180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004911 seconds.
+  path: Assets/Materials/Materials/Screens/flower3/colors/fire/flower3_short_fire.png
+  artifactKey: Guid(cdbc7dfcd4bb5d442ae8eaf49b3767aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower3/colors/fire/flower3_short_fire.png using Guid(cdbc7dfcd4bb5d442ae8eaf49b3767aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109b81039a52d082153051c250b74333') in 0.008624 seconds 
+  Import took 0.012066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Materials/Materials/Screens/flower3/colors/water/flower3_short_water.png
+  artifactKey: Guid(6e5b14978b4396f4099afbe3a7232837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower3/colors/water/flower3_short_water.png using Guid(6e5b14978b4396f4099afbe3a7232837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf37578d0c00e96de49649b01233fee') in 0.009131 seconds 
+  Import took 0.012095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.108617 seconds.
+  path: Assets/Materials/BroccoTree_0.prefab
+  artifactKey: Guid(cf940e63974710e459d2a10333e41d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BroccoTree_0.prefab using Guid(cf940e63974710e459d2a10333e41d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b46a02e68c277c99a2f59d6754ff5c8') in 0.047369 seconds 
+  Import took 0.051198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_59.prefab
+  artifactKey: Guid(7b1125ad063d5524eb23f01f75308c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_59.prefab using Guid(7b1125ad063d5524eb23f01f75308c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb14f3e9cf20315cdcc5dca24136cfb1') in 0.052973 seconds 
+  Import took 0.056690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_18.prefab
+  artifactKey: Guid(6b612b111ec40aa4c8953bc74c5fce28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_18.prefab using Guid(6b612b111ec40aa4c8953bc74c5fce28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5f5103a8a916ec2aff4f70fab1ee52') in 0.047504 seconds 
+  Import took 0.050684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Materials/BroccoTree_0.prefab
+  artifactKey: Guid(cf940e63974710e459d2a10333e41d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BroccoTree_0.prefab using Guid(cf940e63974710e459d2a10333e41d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b46a02e68c277c99a2f59d6754ff5c8') in 0.047513 seconds 
+  Import took 0.051280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_34.prefab
+  artifactKey: Guid(4c612933cd6df014b82544ab5234b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_34.prefab using Guid(4c612933cd6df014b82544ab5234b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4ae263331a433de4191ec00a524293') in 0.048277 seconds 
+  Import took 0.051767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_48.prefab
+  artifactKey: Guid(56432a5c2f63f3f4690189c9faa1b3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_48.prefab using Guid(56432a5c2f63f3f4690189c9faa1b3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11609c50d1863a44986a322222aaa938') in 0.053481 seconds 
+  Import took 0.057253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_33.prefab
+  artifactKey: Guid(f09e2716e0cfd244593b58933d7ff2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_33.prefab using Guid(f09e2716e0cfd244593b58933d7ff2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06fb15f7252322439f592b136071467') in 0.049899 seconds 
+  Import took 0.053707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_17.prefab
+  artifactKey: Guid(f6d4086f28865f542a727a863e77c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_17.prefab using Guid(f6d4086f28865f542a727a863e77c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ca303869e2f81ec28fe71c091cf2fb') in 0.048488 seconds 
+  Import took 0.051986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_33.prefab
+  artifactKey: Guid(f09e2716e0cfd244593b58933d7ff2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_33.prefab using Guid(f09e2716e0cfd244593b58933d7ff2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06fb15f7252322439f592b136071467') in 0.048867 seconds 
+  Import took 0.052684 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000202 seconds.
   path: Assets/Materials/Materials/Flowers/BroccoTree_17.prefab
   artifactKey: Guid(f6d4086f28865f542a727a863e77c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_17.prefab using Guid(f6d4086f28865f542a727a863e77c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40f64295489a6164fbf7fff72e1cea4') in 0.120685 seconds
-  Import took 0.126966 seconds .
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_17.prefab using Guid(f6d4086f28865f542a727a863e77c4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ca303869e2f81ec28fe71c091cf2fb') in 0.047427 seconds 
+  Import took 0.050887 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_20.prefab
-  artifactKey: Guid(3a9b72d4894a8a544b694f16ce682675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_20.prefab using Guid(3a9b72d4894a8a544b694f16ce682675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8f0f465f6b335027547dd9d0b2d790') in 0.129979 seconds
-  Import took 0.135354 seconds .
+  Time since last request: 0.000278 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_16.prefab
+  artifactKey: Guid(4ca41f1c15bfff445b0ac8940b5ab13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_16.prefab using Guid(4ca41f1c15bfff445b0ac8940b5ab13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfc137f31adf1d3f906229f9dc706eb') in 0.048362 seconds 
+  Import took 0.052071 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Materials/Materials/Flowers/BroccoTree_22.prefab
-  artifactKey: Guid(c2f72c2a14ea7744e9e506ae8995377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/Flowers/BroccoTree_22.prefab using Guid(c2f72c2a14ea7744e9e506ae8995377f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4008b09783d4b4b29fe9159982701b') in 0.123487 seconds
-  Import took 0.129017 seconds .
+  Time since last request: 0.005016 seconds.
+  path: Assets/Materials/Materials/Flowers/BroccoTree_16.prefab
+  artifactKey: Guid(4ca41f1c15bfff445b0ac8940b5ab13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Flowers/BroccoTree_16.prefab using Guid(4ca41f1c15bfff445b0ac8940b5ab13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfc137f31adf1d3f906229f9dc706eb') in 0.048956 seconds 
+  Import took 0.052801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.869104 seconds.
-  path: Assets/Scripts/PNGGenerate.cs
-  artifactKey: Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PNGGenerate.cs using Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760a4e578a26562ba85e3c665021fb3f') in 0.019620 seconds
-  Import took 0.026348 seconds .
+  Time since last request: 77.845308 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/fire/flower1_short_fire.png
+  artifactKey: Guid(90a0fcbd4c0067e489f88230931a1671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/fire/flower1_short_fire.png using Guid(90a0fcbd4c0067e489f88230931a1671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa9bae75223b9ede1c5b8163a7ff3e4') in 0.008444 seconds 
+  Import took 0.012314 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.032808 seconds.
-  path: Assets/Scripts/PNGGenerate.cs
-  artifactKey: Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PNGGenerate.cs using Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760a4e578a26562ba85e3c665021fb3f') in 0.006607 seconds
-  Import took 0.017616 seconds .
+  Time since last request: 0.000248 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/water/flower1_tiny_water.png
+  artifactKey: Guid(f461b7acb0321f048a728eadcc52b719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/water/flower1_tiny_water.png using Guid(f461b7acb0321f048a728eadcc52b719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ceff2439e1b63fad0bc3ae3d9096f5') in 0.008848 seconds 
+  Import took 0.011979 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 132.136761 seconds.
-  path: Assets/Scripts/PNGGenerate.cs
-  artifactKey: Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PNGGenerate.cs using Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac265313f8b74def4e958c7466a42cd') in 0.008029 seconds
-  Import took 0.030878 seconds .
+  Time since last request: 0.000308 seconds.
+  path: Assets/Materials/Materials/Screens/flower2/colors/fire/flower2_big_fire.png
+  artifactKey: Guid(024b852d8fa8012468ed43003ec5085a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower2/colors/fire/flower2_big_fire.png using Guid(024b852d8fa8012468ed43003ec5085a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e0bdfb44def9793e76e91a602e303a') in 0.010267 seconds 
+  Import took 0.014093 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.709257 seconds.
-  path: Assets/Scripts/PNGGenerate.cs
-  artifactKey: Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PNGGenerate.cs using Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd133bd00f0fbc9fe7944344a66abb7d0') in 0.013729 seconds
-  Import took 0.060532 seconds .
+  Time since last request: 0.000263 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/water/flower1_short_water.png
+  artifactKey: Guid(95a757de5083bd44186be58bba5a2f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/water/flower1_short_water.png using Guid(95a757de5083bd44186be58bba5a2f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edd5cd30dbbf776fe14416d75f627c9') in 0.009291 seconds 
+  Import took 0.013201 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.481162 seconds.
-  path: Assets/Scripts/PNGGenerate.cs
-  artifactKey: Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PNGGenerate.cs using Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e9b9b849a61159babca124bdef8f98') in 0.006698 seconds
-  Import took 0.028621 seconds .
+  Time since last request: 0.000184 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/wind/flower1_short_wind.png
+  artifactKey: Guid(c9d8dda797e46c5428b66f1bf7a7bae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/wind/flower1_short_wind.png using Guid(c9d8dda797e46c5428b66f1bf7a7bae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8accf265911f879b733d947fd6c6af51') in 0.007844 seconds 
+  Import took 0.010986 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.026444 seconds.
-  path: Assets/Scripts/PNGGenerate.cs
-  artifactKey: Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PNGGenerate.cs using Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e9b9b849a61159babca124bdef8f98') in 0.006370 seconds
-  Import took 0.078405 seconds .
+  Time since last request: 0.000237 seconds.
+  path: Assets/Materials/Materials/Screens/flower2/flower2_big.png
+  artifactKey: Guid(663e25593970790488605f931b4777e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower2/flower2_big.png using Guid(663e25593970790488605f931b4777e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8880a065967d71c962f397e3fa75c296') in 0.009314 seconds 
+  Import took 0.013022 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 103.313340 seconds.
-  path: Assets/Scripts/PNGGenerate.cs
-  artifactKey: Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PNGGenerate.cs using Guid(5210c619043805440bca0004631e56b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691724f014080a2e470cfe8c4d7b9686') in 0.015466 seconds
-  Import took 0.058420 seconds .
+  Time since last request: 0.000194 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/wind/flower1_short_wind.png
+  artifactKey: Guid(c9d8dda797e46c5428b66f1bf7a7bae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/wind/flower1_short_wind.png using Guid(c9d8dda797e46c5428b66f1bf7a7bae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8accf265911f879b733d947fd6c6af51') in 0.006781 seconds 
+  Import took 0.009792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/wind/flower1_tiny_wind.png
+  artifactKey: Guid(0528fde3113761b4398c827b858eec52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/wind/flower1_tiny_wind.png using Guid(0528fde3113761b4398c827b858eec52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7ac08119980165ad28933bf55ee675') in 0.010211 seconds 
+  Import took 0.013414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/fire/flower1_short_fire.png
+  artifactKey: Guid(90a0fcbd4c0067e489f88230931a1671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/fire/flower1_short_fire.png using Guid(90a0fcbd4c0067e489f88230931a1671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa9bae75223b9ede1c5b8163a7ff3e4') in 0.006894 seconds 
+  Import took 0.010122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/fire/flower1_tiny_fire.png
+  artifactKey: Guid(1dc7ecc3225520c469e7e71d5a45e0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/fire/flower1_tiny_fire.png using Guid(1dc7ecc3225520c469e7e71d5a45e0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbd0460d7b43cebb1e63e94e943d5ee') in 0.008596 seconds 
+  Import took 0.011796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/wind/flower1_tiny_wind.png
+  artifactKey: Guid(0528fde3113761b4398c827b858eec52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/wind/flower1_tiny_wind.png using Guid(0528fde3113761b4398c827b858eec52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7ac08119980165ad28933bf55ee675') in 0.007326 seconds 
+  Import took 0.010814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.708423 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/water/flower1_big_water.png
+  artifactKey: Guid(20482d8dba1275d4eb1151c9d08a642e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/water/flower1_big_water.png using Guid(20482d8dba1275d4eb1151c9d08a642e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66c6ca1df73a142f2119ddab932cb5b') in 0.009813 seconds 
+  Import took 0.013528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/fire/flower1_normal_fire.png
+  artifactKey: Guid(a4aee1cec1dd1fe4da56a4c34398de97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/fire/flower1_normal_fire.png using Guid(a4aee1cec1dd1fe4da56a4c34398de97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071294b0e14787a4cdac7e4f53a011ea') in 0.008464 seconds 
+  Import took 0.011674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/water/flower1_normal_water.png
+  artifactKey: Guid(ba550487caa197d4a8b5b742c1ef0b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/water/flower1_normal_water.png using Guid(ba550487caa197d4a8b5b742c1ef0b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae676263996369a651705ab1be901e89') in 0.009092 seconds 
+  Import took 0.012362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/wind/flower1_big_wind.png
+  artifactKey: Guid(d3a3d9ce00fd24e4b9339d62fc03524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/wind/flower1_big_wind.png using Guid(d3a3d9ce00fd24e4b9339d62fc03524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a8dbcc5e6820585d653d73dfa8529d') in 0.007552 seconds 
+  Import took 0.010978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.507390 seconds.
+  path: Assets/Materials/Materials/Screens/flower2/colors/fire/flower2_short_fire.png
+  artifactKey: Guid(dd0022ede9b17b54f8fcef19d0194020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower2/colors/fire/flower2_short_fire.png using Guid(dd0022ede9b17b54f8fcef19d0194020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2132f06709e0d2c066cc3b5ffb826619') in 0.007975 seconds 
+  Import took 0.011624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Materials/Materials/Screens/flower3/colors/fire/flower3_big_fire.png
+  artifactKey: Guid(b3b9b7b76a3963a4fa56077029dabf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower3/colors/fire/flower3_big_fire.png using Guid(b3b9b7b76a3963a4fa56077029dabf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd222bb4027b43c73a76e786508adb702') in 0.008558 seconds 
+  Import took 0.012242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Materials/Materials/Screens/flower2/colors/fire/flower2_tiny_fire.png
+  artifactKey: Guid(bab04f833d5ee3d438b7121353197594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower2/colors/fire/flower2_tiny_fire.png using Guid(bab04f833d5ee3d438b7121353197594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67bd6f21efc05e61630e4eef9fdfdf5') in 0.008268 seconds 
+  Import took 0.011421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Materials/Materials/Screens/flower2/flower2_tiny.png
+  artifactKey: Guid(fb545d108f5428145b831a7e00c704a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower2/flower2_tiny.png using Guid(fb545d108f5428145b831a7e00c704a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c10c0bd23191efc44171fa0a43157d') in 0.007379 seconds 
+  Import took 0.010326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Materials/Materials/Screens/flower2/colors/wind/flower2_tiny_wind.png
+  artifactKey: Guid(ee9f821721869e44583e9334bc7f67ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower2/colors/wind/flower2_tiny_wind.png using Guid(ee9f821721869e44583e9334bc7f67ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d899a7c2263ec99598acd6e9d7227e7') in 0.008091 seconds 
+  Import took 0.011278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Materials/Materials/Screens/flower3/flower3_big.png
+  artifactKey: Guid(6a30a04282d4ad94288ecd40be7c1f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower3/flower3_big.png using Guid(6a30a04282d4ad94288ecd40be7c1f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170610fb1b576adcd78f21b2618af865') in 0.008883 seconds 
+  Import took 0.012283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Materials/Materials/Screens/flower2/colors/wind/flower2_short_wind.png
+  artifactKey: Guid(9a64c382c2beba14ab59219559008407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower2/colors/wind/flower2_short_wind.png using Guid(9a64c382c2beba14ab59219559008407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74623c8fc49ada512544fb4396379455') in 0.009154 seconds 
+  Import took 0.012446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Materials/Materials/Screens/flower2/colors/water/flower2_short_water.png
+  artifactKey: Guid(b36ae97a57819dd4f9034260f936c531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower2/colors/water/flower2_short_water.png using Guid(b36ae97a57819dd4f9034260f936c531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14512786f0bd3478c74006b12d91bc19') in 0.007751 seconds 
+  Import took 0.011277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Materials/Materials/Screens/flower2/colors/water/flower2_tiny_water.png
+  artifactKey: Guid(5a7b53ef54cfea4419712a3cd50e51b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower2/colors/water/flower2_tiny_water.png using Guid(5a7b53ef54cfea4419712a3cd50e51b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91e77887dee94ca62f0138fd1107f46') in 0.008356 seconds 
+  Import took 0.011398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331347 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/wind/flower1_normal_wind.png
+  artifactKey: Guid(4701f33ca6208574db0586b035d021e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/wind/flower1_normal_wind.png using Guid(4701f33ca6208574db0586b035d021e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b0f7eed38ae366258339fb8f09051f') in 0.008960 seconds 
+  Import took 0.012531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.178426 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/fire/flower1_big_fire.png
+  artifactKey: Guid(0fe84591ffdda6143b5f1d2526168918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/fire/flower1_big_fire.png using Guid(0fe84591ffdda6143b5f1d2526168918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250b6422aee8fae2416d05181ba8adff') in 0.008458 seconds 
+  Import took 0.012291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001687 seconds.
+  path: Assets/Materials/Materials/Screens/flower1/colors/fire/flower1_big_fire.png
+  artifactKey: Guid(0fe84591ffdda6143b5f1d2526168918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Screens/flower1/colors/fire/flower1_big_fire.png using Guid(0fe84591ffdda6143b5f1d2526168918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250b6422aee8fae2416d05181ba8adff') in 0.007980 seconds 
+  Import took 0.011524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.387843 seconds.
+  path: Assets/BroccoTree_0_Textures/billboard.png
+  artifactKey: Guid(51786ee7827954b4789c1c8044aa87c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BroccoTree_0_Textures/billboard.png using Guid(51786ee7827954b4789c1c8044aa87c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3115729f51aa0f8f0ad6866122523fd') in 0.017580 seconds 
+  Import took 0.021258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/BroccoTree_0_Textures/atlas.png
+  artifactKey: Guid(12d2fa5ae29b4bc4b9bfa66de657bdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BroccoTree_0_Textures/atlas.png using Guid(12d2fa5ae29b4bc4b9bfa66de657bdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb530ddb2ff436d6670f45990fe92f0') in 0.010330 seconds 
+  Import took 0.013524 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007094 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.811 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.8 MB.
-System memory in use after: 119.8 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3104.
-Total: 10.360600 ms (FindLiveObjects: 4.671100 ms CreateObjectMapping: 0.662000 ms MarkObjects: 4.829400 ms  DeleteObjects: 0.194100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015205 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.499 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.8 MB.
-System memory in use after: 119.9 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3109.
-Total: 5.522000 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.186000 ms MarkObjects: 4.864600 ms  DeleteObjects: 0.155500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007301 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.735 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.8 MB.
-System memory in use after: 119.9 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3114.
-Total: 2.985200 ms (FindLiveObjects: 0.280400 ms CreateObjectMapping: 0.201500 ms MarkObjects: 2.369500 ms  DeleteObjects: 0.132400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.0 MB.
-System memory in use after: 69.0 MB.
+System memory in use before: 69.4 MB.
+System memory in use after: 69.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3115.
-Total: 4.036700 ms (FindLiveObjects: 0.645200 ms CreateObjectMapping: 0.198100 ms MarkObjects: 3.060200 ms  DeleteObjects: 0.131900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010567 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.751 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2601 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.8 MB.
-System memory in use after: 119.8 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3120.
-Total: 3.794000 ms (FindLiveObjects: 0.542000 ms CreateObjectMapping: 0.283300 ms MarkObjects: 2.799900 ms  DeleteObjects: 0.166400 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3162.
+Total: 2.716600 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.062500 ms MarkObjects: 2.249500 ms  DeleteObjects: 0.107100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.9 MB.
-System memory in use after: 69.0 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3120.
-Total: 3.928000 ms (FindLiveObjects: 0.336500 ms CreateObjectMapping: 0.169400 ms MarkObjects: 3.248400 ms  DeleteObjects: 0.172600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.079890 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.193 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2601 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.7 MB.
-System memory in use after: 119.8 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3125.
-Total: 3.540600 ms (FindLiveObjects: 0.295200 ms CreateObjectMapping: 0.151300 ms MarkObjects: 2.922100 ms  DeleteObjects: 0.170700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014362 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.034 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2601 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.8 MB.
-System memory in use after: 119.9 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3130.
-Total: 3.400800 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.142700 ms MarkObjects: 2.784400 ms  DeleteObjects: 0.162700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.9 MB.
-System memory in use after: 69.0 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3130.
-Total: 5.084200 ms (FindLiveObjects: 0.327000 ms CreateObjectMapping: 0.232300 ms MarkObjects: 4.282200 ms  DeleteObjects: 0.240900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011952 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.760 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2601 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.8 MB.
-System memory in use after: 119.9 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3135.
-Total: 3.978500 ms (FindLiveObjects: 0.421000 ms CreateObjectMapping: 0.288700 ms MarkObjects: 3.132500 ms  DeleteObjects: 0.134200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 9.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.9 MB.
-System memory in use after: 69.0 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3135.
-Total: 6.198400 ms (FindLiveObjects: 0.633400 ms CreateObjectMapping: 0.404300 ms MarkObjects: 4.947600 ms  DeleteObjects: 0.211600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006237 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.942 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2601 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.8 MB.
-System memory in use after: 119.9 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3140.
-Total: 3.868100 ms (FindLiveObjects: 0.314700 ms CreateObjectMapping: 0.162100 ms MarkObjects: 3.221400 ms  DeleteObjects: 0.168100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008476 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.032 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2601 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.8 MB.
-System memory in use after: 119.9 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3145.
-Total: 5.003200 ms (FindLiveObjects: 0.446300 ms CreateObjectMapping: 0.232500 ms MarkObjects: 4.108500 ms  DeleteObjects: 0.212800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.9 MB.
-System memory in use after: 69.0 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3145.
-Total: 3.130700 ms (FindLiveObjects: 0.336200 ms CreateObjectMapping: 0.169400 ms MarkObjects: 2.488700 ms  DeleteObjects: 0.135300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008650 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.773 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2601 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.7 MB.
-System memory in use after: 119.8 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3149.
-Total: 4.700000 ms (FindLiveObjects: 0.349800 ms CreateObjectMapping: 0.693400 ms MarkObjects: 3.488000 ms  DeleteObjects: 0.166700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.0 MB.
-System memory in use after: 69.0 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3150.
-Total: 3.669900 ms (FindLiveObjects: 0.328000 ms CreateObjectMapping: 0.120300 ms MarkObjects: 3.079600 ms  DeleteObjects: 0.140700 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
