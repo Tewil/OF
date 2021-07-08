@@ -171,9 +171,8 @@
      <Compile Include="Assets\Waldemarst\Broccoli\Pipe\Members\Position.cs" />
      <Compile Include="Assets\Waldemarst\BroccoliExamples\Scripts\CameraRotateAround.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Factory\TreeFactory.cs" />
-     <Compile Include="Assets\Scripts\PNGListCreator.cs" />
-     <Compile Include="Assets\Waldemarst\Broccoli\Utils\BezierCurveDraw.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Factory\Components\BranchMeshGeneratorComponent.cs" />
+     <Compile Include="Assets\Waldemarst\Broccoli\Utils\BezierCurveDraw.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Pipe\Elements\TrunkMeshGeneratorElement.cs" />
      <Compile Include="Assets\Waldemarst\BroccoliExamples\Scripts\RuntimeSceneController.cs" />
      <None Include="Assets\Waldemarst\Broccoli\Resources\Broccoli\Shaders\TreeCreatorBarkColored.shader" />
