@@ -9,22 +9,24 @@ public class PNGGenerate : MonoBehaviour
 	public Image myImageComponent;
 	public Sprite[] pngs;
 	public GameObject[] flowers;
-	public ObjectSpawner objectSpawner;
-	public GameObject example;
+	//public ObjectSpawner objectSpawn;
+	//public GameObject example;
 
 	
 	
 	void Start()
     {
 		myImageComponent = this.GetComponent<Canvas>().GetComponent<Image>();
-		example.SetActive(false);
+        //objectSpawn = this.GetComponent<ObjectSpawner>();
+		//example.SetActive(false);
     }
 	
     public void generatePNG() 
 	{
 		
 		myImageComponent.overrideSprite = pngs[15];
-		example.SetActive(true);
-        //objectSpawner.objectToSpawn = flowers[9];
+        this.GetComponent<ObjectSpawner>().objectToSpawn = flowers[9];
+        //ObjectSpawner.objectToSpawn = flowers[9];
+		//example.SetActive(true);
 	}
 }
