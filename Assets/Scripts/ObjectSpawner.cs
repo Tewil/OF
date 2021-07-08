@@ -10,6 +10,7 @@ public class ObjectSpawner : MonoBehaviour
 	void Start ()
 	{
 		placementIndicator = FindObjectOfType<PlacementIndicator>();
+        objectToSpawn = PNGGenerate.objectSpawn;
 			
 	}
 	
