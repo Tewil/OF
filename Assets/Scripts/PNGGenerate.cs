@@ -6,24 +6,25 @@ using UnityEngine.SceneManagement;
 
 public class PNGGenerate : MonoBehaviour
 {
-	public Sprite png;
 	public Image myImageComponent;
 	public Sprite[] pngs;
 	public GameObject[] flowers;
-    public GameObject objectToSpawn;
+	public ObjectSpawner objectSpawner;
+	public GameObject example;
 
 	
 	
 	void Start()
     {
 		myImageComponent = this.GetComponent<Canvas>().GetComponent<Image>();
+		example.SetActive(false);
     }
 	
     public void generatePNG() 
 	{
-		myImageComponent.overrideSprite = pngs[2];
-        SceneManager.LoadScene("PlantScene", LoadSceneMode.Single);/////at this line
-        objectToSpawn = GameObject.Find("ObjectSpawner");
-        objectToSpawn = flowers[9];
+		
+		myImageComponent.overrideSprite = pngs[15];
+		example.SetActive(true);
+        //objectSpawner.objectToSpawn = flowers[9];
 	}
 }
