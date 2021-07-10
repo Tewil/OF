@@ -27,7 +27,9 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void OnBeginDrag(PointerEventData eventData) {
         canvasGroup.alpha = .6f;
         canvasGroup.blocksRaycasts = false;
-        ItemSlot.itsOnDrop = 0;
+        HeightSlot.itsOnDrop = false;
+        ColorSlot.itsOnDrop = false;
+        TextureSlot.itsOnDrop = false;
     }
 
     public void OnDrag(PointerEventData eventData) {
@@ -36,12 +38,12 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public void OnEndDrag(PointerEventData eventData) {
         canvasGroup.alpha = 1f;
-        if (ItemSlot.itsOnDrop == 0) {
-            transform.position = startPosition;
-            transform.SetParent(startParent);
+        if (HeightSlot.itsOnDrop == true || ColorSlot.itsOnDrop == true || TextureSlot.itsOnDrop == true) {
+
         }
         else {
-
+            transform.position = startPosition;
+            transform.SetParent(startParent);
         }
         canvasGroup.blocksRaycasts = true;
     }

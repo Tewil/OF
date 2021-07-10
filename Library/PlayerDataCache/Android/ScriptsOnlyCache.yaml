@@ -13,14 +13,19 @@ ScriptsOnlyBuild:
     - Broccoli.Pipe.SproutMeshGeneratorElement
     - Broccoli.Pipe.StructureGeneratorElement
     - Broccoli.Pipe.WindEffectElement
+    - ColorSlot
+    - DragDrop
+    - HeightSlot
     - Navigation
     - ObjectSpawner
     - PNGGenerate
     - PlacementIndicator
+    - TextureSlot
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -31,6 +36,9 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.DeviceSimulator.Editor.dll:
+    - UnityEditor.DeviceSimulation.DeviceInfoAsset
+    - UnityEditor.DeviceSimulation.SimulatorWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARCore.Editor.dll:
@@ -136,6 +144,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7186}
     - Class: 114
       Script: {instanceID: 7262}
+    - Class: 114
+      Script: {instanceID: 37668}
+    - Class: 114
+      Script: {instanceID: 38962}
+    - Class: 114
+      Script: {instanceID: 56178}
+    - Class: 114
+      Script: {instanceID: 56182}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -153,6 +169,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
     - Class: 226
       Script: {instanceID: 0}
@@ -1210,6 +1228,30 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Broccoli.Examples
     className: RuntimeSceneController
+  - hash:
+      serializedVersion: 2
+      Hash: e9539b36af987b1fc4d5169f5d2f3d29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DragDrop
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HeightSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColorSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextureSlot
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainScene.unity

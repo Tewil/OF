@@ -145,7 +145,7 @@
 81-->[:unityLibrary] C:\Users\jonwa\Documents\GitHub\OF\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:9-69:68
 82            android:name="unity.build-id"
 82-->[:unityLibrary] C:\Users\jonwa\Documents\GitHub\OF\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-42
-83            android:value="f67c3182-e9b6-4b76-9558-29fbe2bbcb32" />
+83            android:value="444c6211-65d5-4989-96db-a71bbb8d8f07" />
 83-->[:unityLibrary] C:\Users\jonwa\Documents\GitHub\OF\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-65
 84        <meta-data
 84-->[:unityLibrary] C:\Users\jonwa\Documents\GitHub\OF\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:9-72:36

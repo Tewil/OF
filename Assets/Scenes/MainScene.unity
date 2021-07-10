@@ -754,8 +754,8 @@ GameObject:
   - component: {fileID: 736381863}
   - component: {fileID: 736381867}
   - component: {fileID: 736381866}
-  - component: {fileID: 736381865}
   - component: {fileID: 736381864}
+  - component: {fileID: 736381868}
   m_Layer: 5
   m_Name: EarthSeed
   m_TagString: Untagged
@@ -780,7 +780,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 44, y: 326}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &736381864
 CanvasGroup:
@@ -794,19 +794,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &736381865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 736381862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed256cb40e0c49b48ac1bd0fb71795d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1762508620}
 --- !u!114 &736381866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -845,6 +832,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736381862}
   m_CullTransparentMesh: 1
+--- !u!114 &736381868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736381862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f55330df78fb94b9c0bca58156c80e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1762508620}
 --- !u!1 &892134795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,8 +1186,8 @@ GameObject:
   - component: {fileID: 1070525429}
   - component: {fileID: 1070525433}
   - component: {fileID: 1070525432}
-  - component: {fileID: 1070525431}
   - component: {fileID: 1070525430}
+  - component: {fileID: 1070525434}
   m_Layer: 5
   m_Name: WindSeed
   m_TagString: Untagged
@@ -1212,7 +1212,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 131.27, y: 326}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1070525430
 CanvasGroup:
@@ -1226,19 +1226,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &1070525431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1070525428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed256cb40e0c49b48ac1bd0fb71795d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1762508620}
 --- !u!114 &1070525432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1277,6 +1264,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070525428}
   m_CullTransparentMesh: 1
+--- !u!114 &1070525434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070525428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe549c60389c8741bbbc32cf4b51727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1762508620}
 --- !u!1 &1129808119
 GameObject:
   m_ObjectHideFlags: 0
@@ -1363,8 +1363,8 @@ GameObject:
   - component: {fileID: 1339189670}
   - component: {fileID: 1339189672}
   - component: {fileID: 1339189671}
-  - component: {fileID: 1339189673}
   - component: {fileID: 1339189674}
+  - component: {fileID: 1339189673}
   m_Layer: 5
   m_Name: FireSeed
   m_TagString: Untagged
@@ -1389,7 +1389,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -135.67, y: 326}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1339189671
 MonoBehaviour:
@@ -1438,7 +1438,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1339189669}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed256cb40e0c49b48ac1bd0fb71795d4, type: 3}
+  m_Script: {fileID: 11500000, guid: 560187cf420dfc24e9e77d3f2fc4c805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -1666,7 +1666,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1524672113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c96f975651967a34faf287f586406226, type: 3}
+  m_Script: {fileID: 11500000, guid: 121429e0a88ffe2409746a2d05e1a2cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1524672116
@@ -1890,7 +1890,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1560256483}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c96f975651967a34faf287f586406226, type: 3}
+  m_Script: {fileID: 11500000, guid: d46e4260d3be1da4f8ee3fc76136aa27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1560256486
@@ -1942,8 +1942,8 @@ GameObject:
   - component: {fileID: 1564689796}
   - component: {fileID: 1564689800}
   - component: {fileID: 1564689799}
-  - component: {fileID: 1564689798}
   - component: {fileID: 1564689797}
+  - component: {fileID: 1564689798}
   m_Layer: 5
   m_Name: WaterSeed
   m_TagString: Untagged
@@ -1968,7 +1968,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -43.999992, y: 326}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1564689797
 CanvasGroup:
@@ -1991,7 +1991,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1564689795}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed256cb40e0c49b48ac1bd0fb71795d4, type: 3}
+  m_Script: {fileID: 11500000, guid: 58bf9096390523744a8af52345a47aed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
