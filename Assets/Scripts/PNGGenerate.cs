@@ -19,14 +19,7 @@ public class PNGGenerate : MonoBehaviour
 	
     public void generatePNG() 
 	{
-        if (GlobalCount.count == 3) {
             myImageComponent.overrideSprite = pngs[29];
             objectSpawn = flowers[29];
-        }
-        else {
-            myImageComponent.overrideSprite = null;
-            objectSpawn = null;
-        }
-
 	}
 }

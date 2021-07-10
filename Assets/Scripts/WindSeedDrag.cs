@@ -44,11 +44,6 @@ public class WindSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
         else {
             transform.position = startPosition;
             transform.SetParent(startParent);
-            if (GlobalCount.count <= 0) {
-                }
-            else {
-                GlobalCount.count--;
-            }
         }
         canvasGroup.blocksRaycasts = true;
     }
