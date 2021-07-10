@@ -10,8 +10,8 @@ public class WaterSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandl
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
-    Vector3 startPosition;
-	Transform startParent;
+    public static Vector3 startPosition;
+	public static Transform startParent;
     public bool dragAble;
     public static bool active;
 

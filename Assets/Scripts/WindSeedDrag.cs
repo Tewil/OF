@@ -10,8 +10,8 @@ public class WindSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
-    Vector3 startPosition;
-	Transform startParent;
+    private static Vector3 startPosition;
+	private static Transform startParent;
     public bool dragAble;
     public static bool active;
 

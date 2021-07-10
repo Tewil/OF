@@ -14,13 +14,17 @@ ScriptsOnlyBuild:
     - Broccoli.Pipe.StructureGeneratorElement
     - Broccoli.Pipe.WindEffectElement
     - ColorSlot
-    - DragDrop
+    - EarthSeedDrag
+    - FireSeedDrag
     - HeightSlot
     - Navigation
     - ObjectSpawner
     - PNGGenerate
     - PlacementIndicator
+    - Reset
     - TextureSlot
+    - WaterSeedDrag
+    - WindSeedDrag
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -101,57 +105,65 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 664}
     - Class: 114
-      Script: {instanceID: 2218}
+      Script: {instanceID: 2238}
     - Class: 114
-      Script: {instanceID: 2264}
+      Script: {instanceID: 2286}
     - Class: 114
-      Script: {instanceID: 2270}
+      Script: {instanceID: 2292}
     - Class: 114
-      Script: {instanceID: 3128}
+      Script: {instanceID: 2304}
     - Class: 114
-      Script: {instanceID: 3300}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 3532}
+      Script: {instanceID: 3270}
     - Class: 114
-      Script: {instanceID: 3580}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3642}
+      Script: {instanceID: 3584}
     - Class: 114
-      Script: {instanceID: 3672}
+      Script: {instanceID: 3632}
     - Class: 114
-      Script: {instanceID: 3808}
+      Script: {instanceID: 3694}
     - Class: 114
-      Script: {instanceID: 3832}
+      Script: {instanceID: 3724}
     - Class: 114
-      Script: {instanceID: 3992}
+      Script: {instanceID: 3860}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 3884}
     - Class: 114
-      Script: {instanceID: 4424}
+      Script: {instanceID: 4048}
     - Class: 114
-      Script: {instanceID: 4572}
+      Script: {instanceID: 4192}
     - Class: 114
-      Script: {instanceID: 4908}
+      Script: {instanceID: 4490}
     - Class: 114
-      Script: {instanceID: 5584}
+      Script: {instanceID: 4640}
     - Class: 114
-      Script: {instanceID: 5848}
+      Script: {instanceID: 4870}
     - Class: 114
-      Script: {instanceID: 6612}
+      Script: {instanceID: 4984}
     - Class: 114
-      Script: {instanceID: 7128}
+      Script: {instanceID: 5226}
     - Class: 114
-      Script: {instanceID: 7186}
+      Script: {instanceID: 5674}
     - Class: 114
-      Script: {instanceID: 7262}
+      Script: {instanceID: 5940}
     - Class: 114
-      Script: {instanceID: 37668}
+      Script: {instanceID: 5980}
     - Class: 114
-      Script: {instanceID: 38962}
+      Script: {instanceID: 6164}
     - Class: 114
-      Script: {instanceID: 56178}
+      Script: {instanceID: 6720}
     - Class: 114
-      Script: {instanceID: 56182}
+      Script: {instanceID: 7050}
+    - Class: 114
+      Script: {instanceID: 7252}
+    - Class: 114
+      Script: {instanceID: 7312}
+    - Class: 114
+      Script: {instanceID: 7392}
+    - Class: 114
+      Script: {instanceID: 38646}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -200,25 +212,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2402}
+      Script: {instanceID: 2428}
     - Class: 114
-      Script: {instanceID: 2530}
+      Script: {instanceID: 2562}
     - Class: 114
-      Script: {instanceID: 3698}
+      Script: {instanceID: 3750}
     - Class: 114
-      Script: {instanceID: 4546}
+      Script: {instanceID: 4612}
     - Class: 114
-      Script: {instanceID: 4844}
+      Script: {instanceID: 4920}
     - Class: 114
-      Script: {instanceID: 4856}
+      Script: {instanceID: 4932}
     - Class: 114
-      Script: {instanceID: 5448}
+      Script: {instanceID: 5532}
     - Class: 114
-      Script: {instanceID: 5528}
+      Script: {instanceID: 5618}
     - Class: 114
-      Script: {instanceID: 5962}
+      Script: {instanceID: 6056}
     - Class: 114
-      Script: {instanceID: 6934}
+      Script: {instanceID: 7048}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -262,6 +274,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Broccoli.Pipe
     className: SparsingTransformElement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColorSlot
   - hash:
       serializedVersion: 2
       Hash: 04e4a8b0447477cc4e933d9e5311188f
@@ -433,6 +451,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextureSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.PixelPerfect.dll
     namespaceName: UnityEngine.U2D
     className: CinemachinePixelPerfect
@@ -454,6 +478,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARParticipantManager
+  - hash:
+      serializedVersion: 2
+      Hash: e9539b36af987b1fc4d5169f5d2f3d29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DragDrop
   - hash:
       serializedVersion: 2
       Hash: cfdd0010efd7b54c2b7512656dbc9119
@@ -720,6 +750,12 @@ ScriptsOnlyBuild:
     className: NodeInput
   - hash:
       serializedVersion: 2
+      Hash: 2a9862962b78fac4f1b2822c21a9c556
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WindSeedDrag
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -744,10 +780,16 @@ ScriptsOnlyBuild:
     className: ARAnchorManager
   - hash:
       serializedVersion: 2
-      Hash: 6189ef173aaf7245a5d942f2d7052bd6
+      Hash: 8c26cb0bb2c2518cc37a03ed2264018e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PNGGenerate
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GlobalCount
   - hash:
       serializedVersion: 2
       Hash: 7be7bfb52a4dd345e362ad68aefec48a
@@ -796,6 +838,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARTrackedImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HeightSlot
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -954,6 +1002,12 @@ ScriptsOnlyBuild:
     className: SpriteShapeGeometryCache
   - hash:
       serializedVersion: 2
+      Hash: 2a9862962b78fac4f1b2822c21a9c556
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FireSeedDrag
+  - hash:
+      serializedVersion: 2
       Hash: e1c35cdce946e9da77fe80a39c261608
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -988,6 +1042,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 2a9862962b78fac4f1b2822c21a9c556
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WaterSeedDrag
   - hash:
       serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
@@ -1050,16 +1110,16 @@ ScriptsOnlyBuild:
     className: SwingArmModel
   - hash:
       serializedVersion: 2
-      Hash: ef705ae677d649d6c0ff3b4060963abd
-    assemblyName: Unity.XR.ARFoundation.dll
-    namespaceName: UnityEngine.XR.ARFoundation
-    className: ARTrackedObjectManager
-  - hash:
-      serializedVersion: 2
       Hash: 28cfb4bd305dd11c6326cc3ee7c14138
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
     className: SpriteLibraryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef705ae677d649d6c0ff3b4060963abd
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedObjectManager
   - hash:
       serializedVersion: 2
       Hash: 01473135d671a71d740e507b04eb93da
@@ -1140,6 +1200,12 @@ ScriptsOnlyBuild:
     className: ARRaycastManager
   - hash:
       serializedVersion: 2
+      Hash: 2a9862962b78fac4f1b2822c21a9c556
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EarthSeedDrag
+  - hash:
+      serializedVersion: 2
       Hash: 0535c7e7c34dd1cdfc5b1f8ffce1aebe
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -1158,7 +1224,7 @@ ScriptsOnlyBuild:
     className: ARPointCloud
   - hash:
       serializedVersion: 2
-      Hash: 179c063a2e8f5df45b549883301df837
+      Hash: 949b21d439ba06055a6cded4050ba878
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Navigation
@@ -1230,30 +1296,12 @@ ScriptsOnlyBuild:
     className: RuntimeSceneController
   - hash:
       serializedVersion: 2
-      Hash: e9539b36af987b1fc4d5169f5d2f3d29
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DragDrop
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: HeightSlot
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ColorSlot
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TextureSlot
+    className: Reset
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainScene.unity
   - Assets/Scenes/PlantScene.unity
-  playerPath: C:/Users/jonwa/Desktop/apk/OverFlower.apk
+  playerPath: C:/Users/Thors/Desktop/tets.apk

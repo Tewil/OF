@@ -10,10 +10,13 @@ public class FireSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
-    Vector3 startPosition;
-	Transform startParent;
+	
+    public static Vector3 startPosition;
+	public static Transform startParent;
+	
     public bool dragAble;
     public static bool active;
+	
 
     void Start() {
         startPosition = transform.position;
@@ -31,7 +34,8 @@ public class FireSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
         if (dragAble == false) {
             this.enabled = false;
         } else {
-        active = true;
+		
+		active = true;
         canvasGroup.alpha = .6f;
         canvasGroup.blocksRaycasts = false;
         }
@@ -50,6 +54,7 @@ public class FireSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
             transform.position = startPosition;
             transform.SetParent(startParent);
             active = false;
+						
         }
         canvasGroup.blocksRaycasts = true;
     }

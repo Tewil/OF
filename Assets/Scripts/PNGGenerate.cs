@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PNGGenerate : MonoBehaviour
 {
-	public Image myImageComponent;
+	public static Image myImageComponent;
 	public Sprite[] pngs;
 	public GameObject[] flowers;
 	public static GameObject objectSpawn;
