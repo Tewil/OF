@@ -10,15 +10,12 @@ public class WaterSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandl
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
-<<<<<<< HEAD
+
     public static Vector3 startPosition;
 	public static Transform startParent;
     public bool dragAble;
     public static bool active;
-=======
-    Vector3 startPosition;
-	Transform startParent;
->>>>>>> parent of 744731ec (Ich habe fertig)
+
 
     void Start() {
         startPosition = transform.position;

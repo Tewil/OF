@@ -10,18 +10,13 @@ public class FireSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
-<<<<<<< HEAD
-	
+
     public static Vector3 startPosition;
 	public static Transform startParent;
 	
     public bool dragAble;
     public static bool active;
-	
-=======
-    Vector3 startPosition;
-	Transform startParent;
->>>>>>> parent of 744731ec (Ich habe fertig)
+
 
     void Start() {
         startPosition = transform.position;
@@ -35,20 +30,20 @@ public class FireSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
 
 
     public void OnBeginDrag(PointerEventData eventData) {
-<<<<<<< HEAD
+
         if (dragAble == false) {
             this.enabled = false;
         } else {
 		
 		active = true;
-=======
->>>>>>> parent of 744731ec (Ich habe fertig)
+
         canvasGroup.alpha = .6f;
         canvasGroup.blocksRaycasts = false;
         HeightSlot.itsOnDrop = false;
         ColorSlot.itsOnDrop = false;
         TextureSlot.itsOnDrop = false;
     }
+	}
 
     public void OnDrag(PointerEventData eventData) {
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
@@ -62,11 +57,9 @@ public class FireSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
         else {
             transform.position = startPosition;
             transform.SetParent(startParent);
-<<<<<<< HEAD
+
             active = false;
 						
-=======
->>>>>>> parent of 744731ec (Ich habe fertig)
         }
         canvasGroup.blocksRaycasts = true;
     }

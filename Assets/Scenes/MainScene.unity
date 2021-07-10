@@ -335,7 +335,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82705930}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 --- !u!1 &232095114
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,8 +620,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304276053}
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 744731ec (Ich habe fertig)
 --- !u!1 &352276157
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,7 +784,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &524986095
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,8 +887,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524986095}
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 744731ec (Ich habe fertig)
+
 --- !u!1 &593930361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,7 +1117,6 @@ MonoBehaviour:
   - {fileID: 4852475026995025361, guid: 189d3f78922562546ac4d05d42c9a865, type: 3}
   - {fileID: 9111710668432279197, guid: 73e3e1b213574af4cac62c97edbb9696, type: 3}
   - {fileID: 2323995025587306856, guid: e96a99156dbbf2546beaad805fd123bc, type: 3}
-<<<<<<< HEAD
 --- !u!114 &593930366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1238,8 +1232,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602504777}
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 744731ec (Ich habe fertig)
+
 --- !u!1 &736381862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,11 +1265,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-<<<<<<< HEAD
-  m_RootOrder: 14
-=======
-  m_RootOrder: 7
->>>>>>> parent of 744731ec (Ich habe fertig)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1346,7 +1334,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
-<<<<<<< HEAD
   dragAble: 0
 --- !u!1 &750885706
 GameObject:
@@ -1481,8 +1468,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750885706}
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 744731ec (Ich habe fertig)
 --- !u!1 &892134795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,7 +1556,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c96f975651967a34faf287f586406226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
 --- !u!1 &896314199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1778,8 +1762,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927649742}
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 744731ec (Ich habe fertig)
 --- !u!1 &928151187
 GameObject:
   m_ObjectHideFlags: 0
@@ -2054,11 +2036,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-<<<<<<< HEAD
-  m_RootOrder: 18
-=======
-  m_RootOrder: 8
->>>>>>> parent of 744731ec (Ich habe fertig)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2813,11 +2790,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-<<<<<<< HEAD
-  m_RootOrder: 10
-=======
-  m_RootOrder: 6
->>>>>>> parent of 744731ec (Ich habe fertig)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2990,7 +2962,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
-<<<<<<< HEAD
 --- !u!1 &1808900585
 GameObject:
   m_ObjectHideFlags: 0
@@ -3197,8 +3168,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827202890}
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 744731ec (Ich habe fertig)
+
 --- !u!1 &1891044853
 GameObject:
   m_ObjectHideFlags: 0
@@ -3471,7 +3441,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964879334}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 --- !u!1 &1964944129
 GameObject:
   m_ObjectHideFlags: 0
@@ -3884,5 +3853,4 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136670119}
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 744731ec (Ich habe fertig)
+

@@ -10,15 +10,11 @@ public class WindSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
-<<<<<<< HEAD
+
     private static Vector3 startPosition;
 	private static Transform startParent;
     public bool dragAble;
     public static bool active;
-=======
-    Vector3 startPosition;
-	Transform startParent;
->>>>>>> parent of 744731ec (Ich habe fertig)
 
     void Start() {
         startPosition = transform.position;
