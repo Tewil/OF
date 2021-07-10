@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\Waldemarst\Broccoli\Pipe\Elements\BranchBenderElement.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Pipe\Elements\SparsingTransformElement.cs" />
+     <Compile Include="Assets\Scripts\DragHandler.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Node_Editor\Node_Editor\Framework\ConnectionTypes.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Factory\Components\GirthTransformComponent.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Node_Editor\Node_Editor\Framework\Node.cs" />
@@ -72,6 +73,7 @@
      <Compile Include="Assets\Waldemarst\Broccoli\Pipe\Members\LogItem.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Utils\GUITextureManager.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Pipe\Members\SproutGroups.cs" />
+     <Compile Include="Assets\Scripts\Slot.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Pipe\Members\SproutComposite.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Pipe\Elements\WindEffectElement.cs" />
      <Compile Include="Assets\Waldemarst\Broccoli\Node_Editor\Node_Editor\Utilities\GUI\OverlayGUI.cs" />

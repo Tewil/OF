@@ -13,17 +13,14 @@ ScriptsOnlyBuild:
     - Broccoli.Pipe.SproutMeshGeneratorElement
     - Broccoli.Pipe.StructureGeneratorElement
     - Broccoli.Pipe.WindEffectElement
-    - DragHandler
     - Navigation
     - ObjectSpawner
     - PNGGenerate
     - PlacementIndicator
-    - Slot
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -96,53 +93,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 664}
     - Class: 114
-      Script: {instanceID: 1528}
+      Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 1574}
+      Script: {instanceID: 2264}
     - Class: 114
-      Script: {instanceID: 1580}
+      Script: {instanceID: 2270}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 2438}
+      Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 2518}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 2610}
+      Script: {instanceID: 3580}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 3642}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 3672}
     - Class: 114
-      Script: {instanceID: 2952}
+      Script: {instanceID: 3808}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 3832}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3992}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 4132}
     - Class: 114
-      Script: {instanceID: 3302}
+      Script: {instanceID: 4424}
     - Class: 114
-      Script: {instanceID: 3442}
+      Script: {instanceID: 4572}
     - Class: 114
-      Script: {instanceID: 3734}
+      Script: {instanceID: 4908}
     - Class: 114
-      Script: {instanceID: 3882}
+      Script: {instanceID: 5584}
     - Class: 114
-      Script: {instanceID: 4218}
+      Script: {instanceID: 5848}
     - Class: 114
-      Script: {instanceID: 4894}
+      Script: {instanceID: 6612}
     - Class: 114
-      Script: {instanceID: 5158}
+      Script: {instanceID: 7128}
     - Class: 114
-      Script: {instanceID: 5922}
+      Script: {instanceID: 7186}
     - Class: 114
-      Script: {instanceID: 6438}
-    - Class: 114
-      Script: {instanceID: 6496}
-    - Class: 114
-      Script: {instanceID: 6572}
+      Script: {instanceID: 7262}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -189,25 +182,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1712}
+      Script: {instanceID: 2402}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 2530}
     - Class: 114
-      Script: {instanceID: 3008}
+      Script: {instanceID: 3698}
     - Class: 114
-      Script: {instanceID: 3856}
+      Script: {instanceID: 4546}
     - Class: 114
-      Script: {instanceID: 4154}
+      Script: {instanceID: 4844}
     - Class: 114
-      Script: {instanceID: 4166}
+      Script: {instanceID: 4856}
     - Class: 114
-      Script: {instanceID: 4758}
+      Script: {instanceID: 5448}
     - Class: 114
-      Script: {instanceID: 4838}
+      Script: {instanceID: 5528}
     - Class: 114
-      Script: {instanceID: 5272}
+      Script: {instanceID: 5962}
     - Class: 114
-      Script: {instanceID: 6244}
+      Script: {instanceID: 6934}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1221,4 +1214,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainScene.unity
   - Assets/Scenes/PlantScene.unity
-  playerPath: C:/Users/Thors/Desktop/test.apk
+  playerPath: C:/Users/jonwa/Desktop/apk/OverFlower.apk
