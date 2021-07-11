@@ -1,4 +1,0 @@
-#Sun Jul 11 04:11:30 CEST 2021
-base.0=C\:\\Users\\jonwa\\Documents\\GitHub\\OF\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
