@@ -362,12 +362,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232095114}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 232095114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65f55330df78fb94b9c0bca58156c80e, type: 3}
+  m_Script: {fileID: 11500000, guid: 208f8f34ca61f304386b596b0abfb411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -549,7 +549,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -565,7 +565,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 304276053}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 560187cf420dfc24e9e77d3f2fc4c805, type: 3}
+  m_Script: {fileID: 11500000, guid: e4e327f222633fc40b3f482a7ccf86e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -816,7 +816,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -832,7 +832,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 524986095}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65f55330df78fb94b9c0bca58156c80e, type: 3}
+  m_Script: {fileID: 11500000, guid: e8c961c9ff82f0b45936a3ce319581ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -887,7 +887,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524986095}
   m_CullTransparentMesh: 1
-
 --- !u!1 &593930361
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,9 +962,21 @@ RectTransform:
   - {fileID: 892134796}
   - {fileID: 1524672114}
   - {fileID: 1560256484}
+  - {fileID: 1964944130}
+  - {fileID: 927649743}
+  - {fileID: 304276054}
   - {fileID: 1339189670}
+  - {fileID: 2136670120}
+  - {fileID: 896314200}
+  - {fileID: 1808900586}
   - {fileID: 1564689796}
+  - {fileID: 2084058986}
+  - {fileID: 232095115}
+  - {fileID: 524986096}
   - {fileID: 736381863}
+  - {fileID: 602504778}
+  - {fileID: 2120899110}
+  - {fileID: 1827202891}
   - {fileID: 1070525429}
   m_Father: {fileID: 1762508621}
   m_RootOrder: 1
@@ -987,6 +998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5210c619043805440bca0004631e56b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myImageComponent: {fileID: 1129808121}
   pngs:
   - {fileID: 21300000, guid: 882a63359870fd542a3b67420e0ef5ea, type: 3}
   - {fileID: 21300000, guid: d43e0675cb8c8154d8cb34f806c21f43, type: 3}
@@ -1161,7 +1173,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 21
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1177,7 +1189,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 602504777}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fe549c60389c8741bbbc32cf4b51727, type: 3}
+  m_Script: {fileID: 11500000, guid: 92d35114d498a2242b66dffe30f0dd05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -1232,7 +1244,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602504777}
   m_CullTransparentMesh: 1
-
 --- !u!1 &736381862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,6 +1276,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1588,7 +1600,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1604,7 +1616,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 896314199}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58bf9096390523744a8af52345a47aed, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac6cc8beae7733408e0a9903bc527fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -1691,7 +1703,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1707,7 +1719,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 927649742}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 560187cf420dfc24e9e77d3f2fc4c805, type: 3}
+  m_Script: {fileID: 11500000, guid: c8de2e95d581e164193b85364b4c54f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -2036,6 +2048,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2105,6 +2118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
+  dragAble: 0
 --- !u!1 &1129808119
 GameObject:
   m_ObjectHideFlags: 0
@@ -2139,7 +2153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000000004191, y: -99}
+  m_AnchoredPosition: {x: 0.6029, y: -63}
   m_SizeDelta: {x: 212.5458, y: 170.6169}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1129808121
@@ -2212,7 +2226,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2270,6 +2284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
+  dragAble: 0
 --- !u!225 &1339189674
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2339,6 +2354,7 @@ MonoBehaviour:
   home_panel: {fileID: 1062376557}
   craft_panel: {fileID: 593930361}
   plant_panel: {fileID: 1519859106}
+  example: {fileID: 0}
 --- !u!114 &1460970501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2790,6 +2806,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2821,6 +2838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
+  dragAble: 0
 --- !u!114 &1564689799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2994,7 +3012,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3010,7 +3028,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1808900585}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58bf9096390523744a8af52345a47aed, type: 3}
+  m_Script: {fileID: 11500000, guid: b9deeaee534a5b5479e4b458f90d47b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -3097,7 +3115,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3113,7 +3131,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1827202890}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fe549c60389c8741bbbc32cf4b51727, type: 3}
+  m_Script: {fileID: 11500000, guid: d5f6dc3bcca323f4192b0ae600921fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -3168,7 +3186,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827202890}
   m_CullTransparentMesh: 1
-
 --- !u!1 &1891044853
 GameObject:
   m_ObjectHideFlags: 0
@@ -3473,7 +3490,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3489,7 +3506,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1964944129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 560187cf420dfc24e9e77d3f2fc4c805, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a07d357b6bd56847a95a0f0c7be1049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -3576,7 +3593,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 17
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3592,7 +3609,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2084058985}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65f55330df78fb94b9c0bca58156c80e, type: 3}
+  m_Script: {fileID: 11500000, guid: b519b53f1811acc438373de958127117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -3679,7 +3696,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3695,7 +3712,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2120899109}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fe549c60389c8741bbbc32cf4b51727, type: 3}
+  m_Script: {fileID: 11500000, guid: 13af1b111725c974e99b55b3e1eb0efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -3782,7 +3799,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 593930364}
-  m_RootOrder: 13
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3798,7 +3815,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2136670119}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58bf9096390523744a8af52345a47aed, type: 3}
+  m_Script: {fileID: 11500000, guid: ad85c7e02e91ca74ab7a9a201c3fe4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1762508620}
@@ -3853,4 +3870,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136670119}
   m_CullTransparentMesh: 1
-

@@ -10,15 +10,16 @@ public class WindSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
-
-    private static Vector3 startPosition;
-	private static Transform startParent;
+    Vector3 startPosition;
+	Transform startParent;
     public bool dragAble;
-    public static bool active;
+    public static bool windActive;
 
     void Start() {
         startPosition = transform.position;
         startParent = transform.parent;
+        dragAble = true;
+        windActive = false;
     }
 
     private void Awake() {
@@ -28,11 +29,13 @@ public class WindSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
 
 
     public void OnBeginDrag(PointerEventData eventData) {
+        if (dragAble == false) {
+            this.enabled = false;
+        } else {
+        windActive = true;
         canvasGroup.alpha = .6f;
         canvasGroup.blocksRaycasts = false;
-        HeightSlot.itsOnDrop = false;
-        ColorSlot.itsOnDrop = false;
-        TextureSlot.itsOnDrop = false;
+        }
     }
 
     public void OnDrag(PointerEventData eventData) {
@@ -41,14 +44,19 @@ public class WindSeedDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
 
     public void OnEndDrag(PointerEventData eventData) {
         canvasGroup.alpha = 1f;
-        if (HeightSlot.itsOnDrop == true || ColorSlot.itsOnDrop == true || TextureSlot.itsOnDrop == true) {
-
+        if (HeightSlot.itsOnDropHeight == true || ColorSlot.itsOnDropColor == true || TextureSlot.itsOnDropTexture == true) {
+            dragAble = false;
+            HeightSlot.itsOnDropHeight = false;
+            ColorSlot.itsOnDropColor = false;
+            TextureSlot.itsOnDropTexture = false;
         }
         else {
             transform.position = startPosition;
             transform.SetParent(startParent);
+            windActive = false;
+            canvasGroup.blocksRaycasts = true;
         }
-        canvasGroup.blocksRaycasts = true;
+
     }
 
     public void OnPointerDown(PointerEventData eventData) {
